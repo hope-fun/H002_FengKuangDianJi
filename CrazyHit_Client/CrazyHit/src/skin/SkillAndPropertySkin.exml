@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?><e:Skin currentState="setting" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="640" height="420" xmlns:game="game.*">	<w:HostComponent name="egret.gui.TitleWindow"/>	<w:Declarations/>
+	<!--	<e:Button id="quickKillButton" label="秒杀" skinName="skin.components.ButtonSkin" verticalAlign="middle" width="80" height="80" horizontalCenter="0" y="100"/>	-->
+	<e:Rect  width="620" height="260" x="10" y="160" fillAlpha="0.24" fillColor="0x000000"/>
+	<e:Group id="contentGroup" horizontalCenter="0" bottom="10">
+				<e:Group height="105" y="20">			<e:Group height="100">				<e:Label id="currentAtkLabel" text="5.80ee" horizontalCenter="0.5" bold="true" fontFamily="Arial" size="24" textColor="0xFFFFFF" stroke="1.5" strokeColor="0x333333"/>				<e:Label text="目前 DPS" horizontalCenter="0.5" size="20" textColor="0xFFFFFF" fontFamily="微软雅黑" stroke="1.5" strokeColor="0x333333"/>				<e:Rect width="220" height="4" fillColor="0x9E04F8"/>
+				<e:layout>					<e:VerticalLayout horizontalAlign="center" gap="5" verticalAlign="bottom"/>				</e:layout>			</e:Group>			<e:Group height="100">				<e:Group width="380">					<e:Group>						<e:Label id="totalDmgLabel" text="1.18ee" horizontalCenter="0.5" bold="true" fontFamily="Arial" textAlign="right" size="24" textColor="0xFFFFFF" stroke="1.5" strokeColor="0x333333"/>						<e:Label text="点击攻击力" horizontalCenter="0.5" textAlign="right" size="24" textColor="0xFFFFFF" fontFamily="微软雅黑" stroke="1.5" strokeColor="0x333333"/>
+						<e:layout>
+							<e:HorizontalLayout/>
+						</e:layout>					</e:Group>					<e:Rect width="340" height="4" fillColor="0xED2B5C" textAlign="right"/>
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="right" gap="1"/>
+					</e:layout>				</e:Group>				<e:Group width="380">					<e:Group>						<e:Label id="totalDpsLabel" text="5.80ee" horizontalCenter="0.5" bold="true" fontFamily="Arial" textAlign="right" size="24" textColor="0xFFFFFF" stroke="1.5" strokeColor="0x333333"/>						<e:Label text="英雄 DPS" horizontalCenter="0.5" textAlign="right" size="24" textColor="0xFFFFFF" fontFamily="微软雅黑" stroke="1.5" strokeColor="0x333333"/>
+						<e:layout>
+							<e:HorizontalLayout/>
+						</e:layout>					</e:Group>					<e:Rect width="360" height="4" fillColor="0x08CAF6"/>
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="right"/>
+					</e:layout>				</e:Group>
+				<e:layout>					<e:VerticalLayout horizontalAlign="center" verticalAlign="bottom" gap="15"/>				</e:layout>			</e:Group>			<e:layout>				<e:HorizontalLayout horizontalAlign="center"/>			</e:layout>		</e:Group>		<e:Group>			<game:SkillButton id="skill1Button" />			<game:SkillButton id="skill2Button" />			<game:SkillButton id="skill3Button" />			<game:SkillButton id="skill4Button" />			<game:SkillButton id="skill5Button" />			<game:SkillButton id="skill6Button" />			<e:layout>				<e:HorizontalLayout horizontalAlign="center" gap="24"/>			</e:layout>		</e:Group>		<e:layout>			<e:VerticalLayout horizontalAlign="contentJustify" gap="40"/>		</e:layout>	</e:Group></e:Skin>

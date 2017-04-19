@@ -1,0 +1,501 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta id="viewport" name="viewport" content="width=480,user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+<meta name="format-detection"content="telephone=no, email=no" />
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait">
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<!-- UC强制全屏 -->
+<meta name="full-screen" content="yes">
+<!-- QQ强制全屏 -->
+<meta name="x5-fullscreen" content="true">
+<meta name="x5-page-mode" content="app">
+<link rel="icon" sizes="192x192" href="img/luckywings48.png">
+<link rel="apple-touch-icon" href="img/luckywings48.png">
+
+<title>吉羽游戏中心</title>
+<link rel="stylesheet" href="css/lanrenzhijia.css" type="text/css">
+<script src="js/jquery.min.js"></script>
+<script src="js/lanrenzhijia.js"></script>
+<style>
+*{ margin:0; padding:0; list-style:none;}
+body{ font-size:12px;}
+
+#top{width:480px; height:48px; overflow:hidden; margin:1px auto;border:1px solid #ff9968;font-size:28px;text-align:center; color:#ffffff;background-color:#ff9968;}
+.gap{position:absolute;left:0px;width:480px;height:7px;border-top: 1px solid #eaeaea; overflow: hidden; text-align: center;}
+    #buttom {
+        width: 480px;
+        height: 60px;
+        overflow: hidden;
+        margin: 1px auto;
+        border: 0px solid #ff9968;
+        font-size: 18px;
+        text-align: center;
+        color: #808080;
+        background: #ffffff;
+    }
+</style>
+<script>
+    var wxConfig = {
+        debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+        appId: 'wx2f94501c7b909833', // 必填，公众号的唯一标识
+        timestamp: 1442205922, // 必填，生成签名的时间戳
+        nonceStr: 'KX2whcOxOy', // 必填，生成签名的随机串
+        signature: '10b88e0e8a724c32ebe9cc0ae6d949c422d32e5c',// 必填，签名，见附录1
+        jsApiList: ['chooseWXPay', 'onMenuShareTimeline', 'onMenuShareAppMessage', 'onMenuShareQQ', 'onMenuShareWeibo'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+    };
+
+    var config = {
+        "appId": '100000',
+        "siteDomain": 'http://gc.hgame.com/',
+        "payDomain": 'https://pay.hgame.com/',
+        "storageType": 'localStorage', //本地储存方式
+        "staticServer": 'http://f.hgame.com/gc/',
+        "defaultAvatars": ["http:\/\/f.hgame.com\/p\/15\/06\/25\/p3_0b6edfe69c2c19afb321073fedbe89cc.jpg"],
+        "syncUser": 0, //1 - 不可修改头像 0 - 可以修改头像
+        "appDownload": '', //app apk下载地址, 仅在官方appid下显示.
+        'wxopenid': '',
+        "page": 'index',
+        "tabPosition": '1', //顶部 0 底部 1
+        "tabGame": 1,
+        "tabActivity": 0,
+        "supportCredit": 0, // 1 - 支持， 0 - 不支持
+        "isShowOnlineGame": 1, // 是否显示网游 1 - 显示， 0 - 不显示
+        "isShowMobileGame": 0, // 是否显示单机 1 - 显示， 0 - 不显示
+        "hideTopNav": 0,
+        "deivceWidth": '480',
+        "useSelfLogin": 0
+    };
+
+    var u = navigator.userAgent;
+    var browser = {
+        isMobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+        isAndroid: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+        isIos: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+        isIos7: u.indexOf('7.0 Mobile') > -1
+    };
+    ///*
+    if (browser.isMobile) {
+        var uiWidth = 480;
+        if (config.deivceWidth == 'device-width') {
+            uiWidth = 'device-width';
+        }
+        var vp = document.getElementById("viewport");
+        var dpi = "";
+        if (browser.isAndroid && typeof uiWidth === "number") {
+            var deviceWidth = Math.min(window.screen.availWidth, Math.min(window.screen.width, window.outerWidth > 0 ? window.outerWidth : 9999999));
+            dpi = ",target-densitydpi=" + ((uiWidth / deviceWidth) * window.devicePixelRatio * 160);
+        }
+        if (vp != undefined) {
+            if (browser.isIos && browser.isIos7) {
+                vp.content = "width=" + uiWidth + ",user-scalable=no";
+            } else {
+                vp.content = "width=" + uiWidth + ",minimal-ui,user-scalable=no" + dpi + ",maximum-scale=1.0";
+            }
+        }
+    }
+    //*/
+</script>
+</head>
+<body>
+
+<!--代码部分begin-->
+    <!--
+<div id="top"><div style="margin-top:5px">吉羽游戏中心</div></div>
+        -->
+    <div class="lanrenzhijia">
+        <div class="title cf">
+            <ul class="title-list fr cf ">
+                <li class="on">全部</li>
+                <li>手游</li>
+                <li>H5</li>
+                <p><!--<b></b>--></p>
+            </ul>
+        </div>
+        <div class="product-wrap">
+            <!--案例1-->
+            <div class="product show">
+                <table width="100%" cellspacing="10px">
+                    <!--
+                    <tr>
+                        <td colspan="3"><p class="gap"></p></td>
+                    </tr>
+                    -->
+                    <tr style="margin-top:15px">
+                        <td style="width:15%">
+                            <img width="72" height="72" src="img/chengxiangtanqilai.png" />
+                        </td>
+                        <td style="width:70%">
+                            <table width="100%">
+                                <tr>
+                                    <td style="color:#231815">丞相弹起来</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">3.61万人在玩</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">快进入“三弹演义”的世界！</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="width: 15%; cursor: pointer; font-size: 16px; color: #00a0e9; " align="center" onclick="onDownloadClick(1)">
+                            <img src="img/dakai.png" />
+                            <br />
+                            下载
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><p class="gap"></p></td>
+                    </tr>
+                    <tr>
+                        <td style="width:15%">
+                            <img width="72" height="72" src="img/wanzhuannanjing.png" />
+                        </td>
+                        <td style="width:70%">
+                            <table width="100%">
+                                <tr>
+                                    <td style="color:#231815">玩转南京</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">2.1万人在玩</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">带你玩边南京的一米！</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="width: 15%; cursor: pointer; font-size: 16px; color: #00a0e9; " align="center" onclick="onDownloadClick(2)">
+                            <img src="img/dakai.png" />
+                            <br />
+                            下载
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><p class="gap"></p></td>
+                    </tr>
+                    <tr>
+                        <td style="width:15%">
+                            <img width="72" height="72" src="img/mengfangyan.png" />
+                        </td>
+                        <td style="width:70%">
+                            <table width="100%">
+                                <tr>
+                                    <td style="color:#231815">萌方言</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">1.51万人在玩</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">每天一猜，方言达人指日可待。</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="width: 15%; cursor: pointer; font-size: 16px; color: #00a0e9; " align="center" onclick="onDownloadClick(3)">
+                            <img src="img/dakai.png" />
+                            <br />
+                            下载
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><p class="gap"></p></td>
+                    </tr>
+                    <tr>
+                        <td style="width:15%">
+                            <img width="72" height="72" src="img/mengfangyanh5.png" />
+                        </td>
+                        <td style="width:70%">
+                            <table width="100%">
+                                <tr>
+                                    <td style="color:#231815">萌方言H5</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">1万人在玩</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">每天一猜，方言达人指日可待。</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="width: 15%; cursor: pointer; font-size: 16px; color: #00a0e9; " align="center" onclick="window.location.href = 'blank.html'">
+                            <img src="img/dakai.png" />
+                            <br />
+                            打开
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><p class="gap"></p></td>
+                    </tr>
+                    <tr>
+                        <td style="width:15%">
+                            <img width="72" height="72" src="img/baodianchengxiang.png" />
+                        </td>
+                        <td style="width:70%">
+                            <table width="100%">
+                                <tr>
+                                    <td style="color:#231815">爆点丞相H5</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">3千人在玩</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">看我点爆曹阿瞒！</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="width: 15%; cursor: pointer; font-size: 16px; color: #00a0e9; " align="center" onclick="window.location.href = 'blank.html'">
+                            <img src="img/dakai.png" />
+                            <br />
+                            打开
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!--案例2-->
+            <div class="product">
+                <table width="100%" cellspacing="10px">
+                    <!--
+                    <tr>
+                        <td colspan="3"><p class="gap"></p></td>
+                    </tr>
+                    -->
+                    <tr style="margin-top:15px">
+                        <td style="width:15%">
+                            <img width="72" height="72" src="img/chengxiangtanqilai.png" />
+                        </td>
+                        <td style="width:70%">
+                            <table width="100%">
+                                <tr>
+                                    <td style="color:#231815">丞相弹起来</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">3.61万人在玩</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">快进入“三弹演义”的世界！</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="width: 15%; cursor: pointer; font-size: 16px; color: #00a0e9; " align="center" onclick="onDownloadClick(1)">
+                            <img src="img/dakai.png" />
+                            <br />
+                            下载
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><p class="gap"></p></td>
+                    </tr>
+                    <tr>
+                        <td style="width:15%">
+                            <img width="72" height="72" src="img/wanzhuannanjing.png" />
+                        </td>
+                        <td style="width:70%">
+                            <table width="100%">
+                                <tr>
+                                    <td style="color:#231815">玩转南京</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">2.1万人在玩</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">带你玩边南京的一米！</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="width: 15%; cursor: pointer; font-size: 16px; color: #00a0e9; " align="center" onclick="onDownloadClick(2)">
+                            <img src="img/dakai.png" />
+                            <br />
+                            下载
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><p class="gap"></p></td>
+                    </tr>
+                    <tr>
+                        <td style="width:15%">
+                            <img width="72" height="72" src="img/mengfangyan.png" />
+                        </td>
+                        <td style="width:70%">
+                            <table width="100%">
+                                <tr>
+                                    <td style="color:#231815">萌方言</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">1.51万人在玩</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">猜猜咋系做嘛该啊？</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="width: 15%; cursor: pointer; font-size: 16px; color: #00a0e9; " align="center" onclick="onDownloadClick(3)">
+                            <img src="img/dakai.png" />
+                            <br />
+                            下载
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!--案例3-->
+            <div class="product">
+                <table width="100%" cellspacing="10px">
+                    <tr>
+                        <td style="width:15%">
+                            <img width="72" height="72" src="img/mengfangyanh5.png" />
+                        </td>
+                        <td style="width:70%">
+                            <table width="100%">
+                                <tr>
+                                    <td style="color:#231815">萌方言H5</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">1万人在玩</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">猜猜咋系做嘛该啊？</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="width: 15%; cursor: pointer; font-size: 16px; color: #00a0e9; " align="center" onclick="window.location.href = 'blank.html'">
+                            <img src="img/dakai.png" />
+                            <br />
+                            打开
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><p class="gap"></p></td>
+                    </tr>
+                    <tr>
+                        <td style="width:15%">
+                            <img width="72" height="72" src="img/baodianchengxiang.png" />
+                        </td>
+                        <td style="width:70%">
+                            <table width="100%">
+                                <tr>
+                                    <td style="color:#231815">爆点丞相H5</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">3千人在玩</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:16px;color:#848484">看我点爆曹阿瞒！</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="width: 15%; cursor: pointer; font-size: 16px; color: #00a0e9; " align="center" onclick="window.location.href = 'blank.html'">
+                            <img src="img/dakai.png" />
+                            <br />
+                            打开
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="buttom">
+        <table width="100%">
+            <tr>
+                <td onmouseover="mouseover(1,this)" onmouseout="mouseout(1,this)" style="cursor:pointer">
+                    <img id="zhuye" src="img/zhuye.png" />
+                    <br />
+                    首页
+                </td>
+                <td onmouseover="mouseover(2,this)" onmouseout="mouseout(2,this)" style="cursor:pointer">
+                    <img id="youxi" src="img/youxi.png" />
+                    <br />
+                    玩吧
+                </td>
+                <td onmouseover="mouseover(3,this)" onmouseout="mouseout(3,this)" style="cursor:pointer">
+                    <img id="huodong" src="img/huodong.png" />
+                    <br />
+                    动态
+                </td>
+                <td onmouseover="mouseover(4,this)" onmouseout="mouseout(4,this)" style="cursor:pointer">
+                    <img id="wode" src="img/wode.png" />
+                    <br />
+                    我的
+                </td>
+            </tr>
+        </table>
+    </div>
+<script>
+
+    $('.lanrenzhijia').height(window.innerHeight - 60);
+    function onDownloadClick(nFlag) {
+        if (1 == nFlag) {
+            if (browser.isAndroid) {
+                window.location.href = "https://play.google.com/store/apps/details?id=com.snsplus.heroesstrikehd";
+            }
+            if (browser.isIos) {
+                window.location.href = "https://itunes.apple.com/th/app/heroes-strike/id973863543";
+            }
+        }
+        else if (2 == nFlag) {
+            if (browser.isAndroid) {
+                window.location.href = "http://shouji.baidu.com/game/item?docid=3880046&from=landing&f=search_app_%E7%8E%A9%E8%BD%AC%E5%8D%97%E4%BA%AC%40list_1_title%401%40header_game_input";
+            }
+            if (browser.isIos) {
+                window.location.href = "https://itunes.apple.com/cn/app/wan-zhuan-nan-jing/id641003103?mt=8";
+            }
+        }
+        else if (3 == nFlag) {
+            if (browser.isAndroid) {
+                window.location.href = "http://shouji.baidu.com/game/item?docid=5706041&from=landing&f=search_app_%E8%90%8C%E6%96%B9%E8%A8%80%40list_1_title%401%40header_game_input";
+            }
+            if (browser.isIos) {
+                window.location.href = "https://itunes.apple.com/cn/app/meng-fang-yan/id738956253?mt=8";
+            }
+        }
+
+        //alert($('#buttom').width());
+    }
+    function mouseover(nFlag, obj) {
+        if (1 == nFlag) {
+            var imgobj = document.getElementById("zhuye");
+            imgobj.src = "img/zhuye_select.png";
+        }
+        else if (2 == nFlag) {
+            var imgobj = document.getElementById("youxi");
+            imgobj.src = "img/youxi_select.png";
+        }
+        else if (3 == nFlag) {
+            var imgobj = document.getElementById("huodong");
+            imgobj.src = "img/huodong_select.png";
+        }
+        else if (4 == nFlag) {
+            var imgobj = document.getElementById("wode");
+            imgobj.src = "img/wode_select.png";
+        }
+
+        obj.style.color = "#ff9968";
+    }
+    function mouseout(nFlag, obj) {
+        if (1 == nFlag) {
+            var imgobj = document.getElementById("zhuye");
+            imgobj.src = "img/zhuye.png";
+        }
+        else if (2 == nFlag) {
+            var imgobj = document.getElementById("youxi");
+            imgobj.src = "img/youxi.png";
+        }
+        else if (3 == nFlag) {
+            var imgobj = document.getElementById("huodong");
+            imgobj.src = "img/huodong.png";
+        }
+        else if (4 == nFlag) {
+            var imgobj = document.getElementById("wode");
+            imgobj.src = "img/wode.png";
+        }
+
+        obj.style.color = "";
+    }
+</script>
+
+</body>
+
+</html>

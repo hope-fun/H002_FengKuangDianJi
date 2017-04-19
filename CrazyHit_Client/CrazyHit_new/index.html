@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Egret</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.web.js" src-release="libs/modules/game/game.web.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/gui/gui.js" src-release="libs/modules/gui/gui.min.js"></script>
+	<script egret="lib" src="libs/modules/socket/socket.js" src-release="libs/modules/socket/socket.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/dragonbones/dragonbones.js" src-release="libs/modules/dragonbones/dragonbones.min.js"></script>
+	<script egret="lib" src="libs/modules/puremvc/puremvc.js" src-release="libs/modules/puremvc/puremvc.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件-->
+    <!--game_files_start-->
+	<script egret="game" src="bin-debug/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/database/IndexDB.js"></script>
+	<script egret="game" src="bin-debug/database/StaticDatas.js"></script>
+	<script egret="game" src="bin-debug/gamecore/app/AppConfig.js"></script>
+	<script egret="game" src="bin-debug/gamecore/app/AppContainer.js"></script>
+	<script egret="game" src="bin-debug/gamecore/app/IApp.js"></script>
+	<script egret="game" src="bin-debug/gamecore/ApplicationFacade.js"></script>
+	<script egret="game" src="bin-debug/gamecore/controller/commands/GameCommand.js"></script>
+	<script egret="game" src="bin-debug/gamecore/controller/commands/SceneCommand.js"></script>
+	<script egret="game" src="bin-debug/gamecore/controller/ControllerPrepCommand.js"></script>
+	<script egret="game" src="bin-debug/gamecore/controller/ModelPrepCommand.js"></script>
+	<script egret="game" src="bin-debug/gamecore/controller/StartupCommand.js"></script>
+	<script egret="game" src="bin-debug/gamecore/controller/ViewPrepCommand.js"></script>
+	<script egret="game" src="bin-debug/gamecore/model/common/ConstData.js"></script>
+	<script egret="game" src="bin-debug/gamecore/model/game/enemyStaticData.js"></script>
+	<script egret="game" src="bin-debug/gamecore/model/game/enemyData.js"></script>
+	<script egret="game" src="bin-debug/gamecore/model/game/GameInData.js"></script>
+	<script egret="game" src="bin-debug/gamecore/model/game/GameOutData.js"></script>
+	<script egret="game" src="bin-debug/gamecore/model/game/GameData.js"></script>
+	<script egret="game" src="bin-debug/gamecore/model/game/GameInDynamicData.js"></script>
+	<script egret="game" src="bin-debug/gamecore/model/game/heroStaticData.js"></script>
+	<script egret="game" src="bin-debug/gamecore/model/game/heroData.js"></script>
+	<script egret="game" src="bin-debug/gamecore/model/game/heroDynamicData.js"></script>
+	<script egret="game" src="bin-debug/gamecore/model/game/levelUpData.js"></script>
+	<script egret="game" src="bin-debug/gamecore/model/game/playerData.js"></script>
+	<script egret="game" src="bin-debug/gamecore/model/game/playerDynamicData.js"></script>
+	<script egret="game" src="bin-debug/gamecore/model/GameProxy.js"></script>
+	<script egret="game" src="bin-debug/gamecore/utils/ObjectPool.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/ApplicationMediator.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/GameSceneMediator.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/GameSceneUIMediator.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/GameScreenMediator.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/panel/DropGold.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/panel/DynamicEnemyUI.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/panel/EnemyUI.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/panel/GameScene.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/panel/GameSceneUI.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/panel/GameScreen.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/panel/LevelIcon.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/panel/LvUpButton.js"></script>
+	<script egret="game" src="bin-debug/skin/components/LvUpButtonSkin.g.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/panel/ListItem.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/panel/ParallelGold.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/panel/SkillAndPropertyUI.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/panel/SkillButton.js"></script>
+	<script egret="game" src="bin-debug/skin/PlayerItemSkin.g.js"></script>
+	<script egret="game" src="bin-debug/skin/SkillItemSkin.g.js"></script>
+	<script egret="game" src="bin-debug/skin/HeroItemSkin.g.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/panel/SubSystemUI.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/panel/TabButton.js"></script>
+	<script egret="game" src="bin-debug/gamecore/view/SubSystemMediator.js"></script>
+	<script egret="game" src="bin-debug/LoadingUI.js"></script>
+	<script egret="game" src="bin-debug/skin/components/LevelIconSkin.g.js"></script>
+	<script egret="game" src="bin-debug/skin/GameSceneSkin.g.js"></script>
+	<script egret="game" src="bin-debug/skin/components/SkillButtonSkin.g.js"></script>
+	<script egret="game" src="bin-debug/skin/SkillAndPropertySkin.g.js"></script>
+	<script egret="game" src="bin-debug/skin/SubSystemsSkin.g.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/particle/Particle.js"></script>
+	<script egret="game" src="bin-debug/particle/GravityParticle.js"></script>
+	<script egret="game" src="bin-debug/particle/ParticleSystem.js"></script>
+	<script egret="game" src="bin-debug/particle/GravityParticleSystem.js"></script>
+	<script egret="game" src="bin-debug/skin/components/ChallengeButtonSkin.g.js"></script>
+	<script egret="game" src="bin-debug/skin/components/ProgressBarSkin.g.js"></script>
+	<script egret="game" src="bin-debug/skin/components/TabButtonSkin.g.js"></script>
+	<script egret="game" src="bin-debug/skin/LoadingUISkin.g.js"></script>
+	<script egret="game" src="bin-debug/skin/MainGameUISkin.g.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="showAll"
+         data-resolution-mode="retina"
+         data-frame-rate="30"
+         data-content-width="480"
+         data-content-height="800"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-log-filter="" data-show-fps-style="x:0,y:0,size:30,textColor:0x00c200,bgAlpha:0.9">
+    </div>
+    <script>
+        egret.runEgret();
+    </script>
+</body>
+</html>

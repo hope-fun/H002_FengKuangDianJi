@@ -1,0 +1,11 @@
+{"file":"enemies.png","frames":{
+"enemy2":{"x":1,"y":1,"w":240,"h":240,"offX":0,"offY":0,"sourceW":240,"sourceH":240},
+"enemy3":{"x":1,"y":485,"w":239,"h":233,"offX":1,"offY":4,"sourceW":240,"sourceH":240},
+"enemy4":{"x":715,"y":230,"w":210,"h":220,"offX":17,"offY":12,"sourceW":240,"sourceH":240},
+"enemy5":{"x":242,"y":473,"w":235,"h":224,"offX":0,"offY":9,"sourceW":240,"sourceH":240},
+"enemy6":{"x":243,"y":1,"w":236,"h":227,"offX":2,"offY":6,"sourceW":240,"sourceH":240},
+"enemy7":{"x":236,"y":243,"w":236,"h":228,"offX":2,"offY":6,"sourceW":240,"sourceH":240},
+"enemy8":{"x":239,"y":720,"w":236,"h":224,"offX":2,"offY":3,"sourceW":240,"sourceH":240},
+"enemy9":{"x":1,"y":720,"w":236,"h":224,"offX":2,"offY":6,"sourceW":240,"sourceH":240},
+"enemy10":{"x":477,"y":230,"w":236,"h":221,"offX":2,"offY":6,"sourceW":240,"sourceH":240},
+"enemy1":{"x":1,"y":243,"w":233,"h":240,"offX":2,"offY":0,"sourceW":240,"sourceH":240}}}

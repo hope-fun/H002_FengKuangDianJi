@@ -1,0 +1,5002 @@
+[
+  {
+    "id": 1,
+    "quality": 1,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 30,
+    "drop": 15,
+    "scene": 1,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 2,
+    "quality": 2,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 32,
+    "drop": 16,
+    "scene": 1,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 3,
+    "quality": 3,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 34,
+    "drop": 17,
+    "scene": 1,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 4,
+    "quality": 4,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 36,
+    "drop": 18,
+    "scene": 1,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 5,
+    "quality": 5,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 38,
+    "drop": 19,
+    "scene": 1,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 6,
+    "quality": 6,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 40,
+    "drop": 20,
+    "scene": 1,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 7,
+    "quality": 7,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 42,
+    "drop": 21,
+    "scene": 1,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 8,
+    "quality": 8,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 44,
+    "drop": 22,
+    "scene": 1,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 9,
+    "quality": 9,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 46,
+    "drop": 23,
+    "scene": 1,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 10,
+    "quality": 10,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 300,
+    "drop": 150,
+    "scene": 1,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 11,
+    "quality": 11,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 120,
+    "drop": 30,
+    "scene": 2,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 12,
+    "quality": 12,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 128,
+    "drop": 32,
+    "scene": 2,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 13,
+    "quality": 13,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 136,
+    "drop": 34,
+    "scene": 2,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 14,
+    "quality": 14,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 144,
+    "drop": 36,
+    "scene": 2,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 15,
+    "quality": 15,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 152,
+    "drop": 38,
+    "scene": 2,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 16,
+    "quality": 16,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 160,
+    "drop": 40,
+    "scene": 2,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 17,
+    "quality": 17,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 168,
+    "drop": 42,
+    "scene": 2,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 18,
+    "quality": 18,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 176,
+    "drop": 44,
+    "scene": 2,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 19,
+    "quality": 19,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 184,
+    "drop": 46,
+    "scene": 2,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 20,
+    "quality": 20,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 1200,
+    "drop": 300,
+    "scene": 2,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 21,
+    "quality": 21,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 360,
+    "drop": 60,
+    "scene": 3,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 22,
+    "quality": 22,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 384,
+    "drop": 64,
+    "scene": 3,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 23,
+    "quality": 23,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 408,
+    "drop": 68,
+    "scene": 3,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 24,
+    "quality": 24,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 432,
+    "drop": 72,
+    "scene": 3,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 25,
+    "quality": 25,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 456,
+    "drop": 76,
+    "scene": 3,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 26,
+    "quality": 26,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 480,
+    "drop": 80,
+    "scene": 3,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 27,
+    "quality": 27,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 504,
+    "drop": 84,
+    "scene": 3,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 28,
+    "quality": 28,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 528,
+    "drop": 88,
+    "scene": 3,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 29,
+    "quality": 29,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 552,
+    "drop": 92,
+    "scene": 3,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 30,
+    "quality": 30,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 3600,
+    "drop": 600,
+    "scene": 3,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 31,
+    "quality": 31,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 960,
+    "drop": 120,
+    "scene": 4,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 32,
+    "quality": 32,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 1024,
+    "drop": 128,
+    "scene": 4,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 33,
+    "quality": 33,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 1088,
+    "drop": 136,
+    "scene": 4,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 34,
+    "quality": 34,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 1152,
+    "drop": 144,
+    "scene": 4,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 35,
+    "quality": 35,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 1216,
+    "drop": 152,
+    "scene": 4,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 36,
+    "quality": 36,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 1280,
+    "drop": 160,
+    "scene": 4,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 37,
+    "quality": 37,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 1344,
+    "drop": 168,
+    "scene": 4,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 38,
+    "quality": 38,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 1408,
+    "drop": 176,
+    "scene": 4,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 39,
+    "quality": 39,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 1472,
+    "drop": 184,
+    "scene": 4,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 40,
+    "quality": 40,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 9600,
+    "drop": 1200,
+    "scene": 4,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 41,
+    "quality": 41,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 2400,
+    "drop": 240,
+    "scene": 5,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 42,
+    "quality": 42,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 2560,
+    "drop": 256,
+    "scene": 5,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 43,
+    "quality": 43,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 2720,
+    "drop": 272,
+    "scene": 5,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 44,
+    "quality": 44,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 2880,
+    "drop": 288,
+    "scene": 5,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 45,
+    "quality": 45,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 3040,
+    "drop": 304,
+    "scene": 5,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 46,
+    "quality": 46,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 3200,
+    "drop": 320,
+    "scene": 5,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 47,
+    "quality": 47,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 3360,
+    "drop": 336,
+    "scene": 5,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 48,
+    "quality": 48,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 3520,
+    "drop": 352,
+    "scene": 5,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 49,
+    "quality": 49,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 3680,
+    "drop": 368,
+    "scene": 5,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 50,
+    "quality": 50,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 24000,
+    "drop": 2400,
+    "scene": 5,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 51,
+    "quality": 51,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 5760,
+    "drop": 480,
+    "scene": 6,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 52,
+    "quality": 52,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 6144,
+    "drop": 512,
+    "scene": 6,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 53,
+    "quality": 53,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 6528,
+    "drop": 544,
+    "scene": 6,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 54,
+    "quality": 54,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 6912,
+    "drop": 576,
+    "scene": 6,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 55,
+    "quality": 55,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 7296,
+    "drop": 608,
+    "scene": 6,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 56,
+    "quality": 56,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 7680,
+    "drop": 640,
+    "scene": 6,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 57,
+    "quality": 57,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 8064,
+    "drop": 672,
+    "scene": 6,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 58,
+    "quality": 58,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 8448,
+    "drop": 704,
+    "scene": 6,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 59,
+    "quality": 59,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 8832,
+    "drop": 736,
+    "scene": 6,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 60,
+    "quality": 60,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 57600,
+    "drop": 4800,
+    "scene": 6,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 61,
+    "quality": 61,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 13440,
+    "drop": 960,
+    "scene": 7,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 62,
+    "quality": 62,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 14336,
+    "drop": 1024,
+    "scene": 7,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 63,
+    "quality": 63,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 15232,
+    "drop": 1088,
+    "scene": 7,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 64,
+    "quality": 64,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 16128,
+    "drop": 1152,
+    "scene": 7,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 65,
+    "quality": 65,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 17024,
+    "drop": 1216,
+    "scene": 7,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 66,
+    "quality": 66,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 17920,
+    "drop": 1280,
+    "scene": 7,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 67,
+    "quality": 67,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 18816,
+    "drop": 1344,
+    "scene": 7,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 68,
+    "quality": 68,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 19712,
+    "drop": 1408,
+    "scene": 7,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 69,
+    "quality": 69,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 20608,
+    "drop": 1472,
+    "scene": 7,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 70,
+    "quality": 70,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 134400,
+    "drop": 9600,
+    "scene": 7,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 71,
+    "quality": 71,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 30720,
+    "drop": 1920,
+    "scene": 8,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 72,
+    "quality": 72,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 32768,
+    "drop": 2048,
+    "scene": 8,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 73,
+    "quality": 73,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 34816,
+    "drop": 2176,
+    "scene": 8,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 74,
+    "quality": 74,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 36864,
+    "drop": 2304,
+    "scene": 8,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 75,
+    "quality": 75,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 38912,
+    "drop": 2432,
+    "scene": 8,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 76,
+    "quality": 76,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 40960,
+    "drop": 2560,
+    "scene": 8,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 77,
+    "quality": 77,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 43008,
+    "drop": 2688,
+    "scene": 8,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 78,
+    "quality": 78,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 45056,
+    "drop": 2816,
+    "scene": 8,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 79,
+    "quality": 79,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 47104,
+    "drop": 2944,
+    "scene": 8,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 80,
+    "quality": 80,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 307200,
+    "drop": 19200,
+    "scene": 8,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 81,
+    "quality": 81,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 69120,
+    "drop": 3840,
+    "scene": 9,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 82,
+    "quality": 82,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 73728,
+    "drop": 4096,
+    "scene": 9,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 83,
+    "quality": 83,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 78336,
+    "drop": 4352,
+    "scene": 9,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 84,
+    "quality": 84,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 82944,
+    "drop": 4608,
+    "scene": 9,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 85,
+    "quality": 85,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 87552,
+    "drop": 4864,
+    "scene": 9,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 86,
+    "quality": 86,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 92160,
+    "drop": 5120,
+    "scene": 9,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 87,
+    "quality": 87,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 96768,
+    "drop": 5376,
+    "scene": 9,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 88,
+    "quality": 88,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 101376,
+    "drop": 5632,
+    "scene": 9,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 89,
+    "quality": 89,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 105984,
+    "drop": 5888,
+    "scene": 9,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 90,
+    "quality": 90,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 691200,
+    "drop": 38400,
+    "scene": 9,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 91,
+    "quality": 91,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 153600,
+    "drop": 7680,
+    "scene": 10,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 92,
+    "quality": 92,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 163840,
+    "drop": 8192,
+    "scene": 10,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 93,
+    "quality": 93,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 174080,
+    "drop": 8704,
+    "scene": 10,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 94,
+    "quality": 94,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 184320,
+    "drop": 9216,
+    "scene": 10,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 95,
+    "quality": 95,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 194560,
+    "drop": 9728,
+    "scene": 10,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 96,
+    "quality": 96,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 204800,
+    "drop": 10240,
+    "scene": 10,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 97,
+    "quality": 97,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 215040,
+    "drop": 10752,
+    "scene": 10,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 98,
+    "quality": 98,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 225280,
+    "drop": 11264,
+    "scene": 10,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 99,
+    "quality": 99,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 235520,
+    "drop": 11776,
+    "scene": 10,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 100,
+    "quality": 100,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 1536000,
+    "drop": 76800,
+    "scene": 10,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 101,
+    "quality": 101,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 337920,
+    "drop": 15360,
+    "scene": 11,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 102,
+    "quality": 102,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 360448,
+    "drop": 16384,
+    "scene": 11,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 103,
+    "quality": 103,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 382976,
+    "drop": 17408,
+    "scene": 11,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 104,
+    "quality": 104,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 405504,
+    "drop": 18432,
+    "scene": 11,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 105,
+    "quality": 105,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 428032,
+    "drop": 19456,
+    "scene": 11,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 106,
+    "quality": 106,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 450560,
+    "drop": 20480,
+    "scene": 11,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 107,
+    "quality": 107,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 473088,
+    "drop": 21504,
+    "scene": 11,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 108,
+    "quality": 108,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 495616,
+    "drop": 22528,
+    "scene": 11,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 109,
+    "quality": 109,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 518144,
+    "drop": 23552,
+    "scene": 11,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 110,
+    "quality": 110,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 3379200,
+    "drop": 153600,
+    "scene": 11,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 111,
+    "quality": 111,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 737280,
+    "drop": 30720,
+    "scene": 12,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 112,
+    "quality": 112,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 786432,
+    "drop": 32768,
+    "scene": 12,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 113,
+    "quality": 113,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 835584,
+    "drop": 34816,
+    "scene": 12,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 114,
+    "quality": 114,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 884736,
+    "drop": 36864,
+    "scene": 12,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 115,
+    "quality": 115,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 933888,
+    "drop": 38912,
+    "scene": 12,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 116,
+    "quality": 116,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 983040,
+    "drop": 40960,
+    "scene": 12,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 117,
+    "quality": 117,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 1032192,
+    "drop": 43008,
+    "scene": 12,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 118,
+    "quality": 118,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 1081344,
+    "drop": 45056,
+    "scene": 12,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 119,
+    "quality": 119,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 1130496,
+    "drop": 47104,
+    "scene": 12,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 120,
+    "quality": 120,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 7372800,
+    "drop": 307200,
+    "scene": 12,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 121,
+    "quality": 121,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 1597440,
+    "drop": 61440,
+    "scene": 13,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 122,
+    "quality": 122,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 1703936,
+    "drop": 65536,
+    "scene": 13,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 123,
+    "quality": 123,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 1810432,
+    "drop": 69632,
+    "scene": 13,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 124,
+    "quality": 124,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 1916928,
+    "drop": 73728,
+    "scene": 13,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 125,
+    "quality": 125,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 2023424,
+    "drop": 77824,
+    "scene": 13,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 126,
+    "quality": 126,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 2129920,
+    "drop": 81920,
+    "scene": 13,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 127,
+    "quality": 127,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 2236416,
+    "drop": 86016,
+    "scene": 13,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 128,
+    "quality": 128,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 2342912,
+    "drop": 90112,
+    "scene": 13,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 129,
+    "quality": 129,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 2449408,
+    "drop": 94208,
+    "scene": 13,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 130,
+    "quality": 130,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 15974400,
+    "drop": 614400,
+    "scene": 13,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 131,
+    "quality": 131,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 3440640,
+    "drop": 122880,
+    "scene": 14,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 132,
+    "quality": 132,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 3670016,
+    "drop": 131072,
+    "scene": 14,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 133,
+    "quality": 133,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 3899392,
+    "drop": 139264,
+    "scene": 14,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 134,
+    "quality": 134,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 4128768,
+    "drop": 147456,
+    "scene": 14,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 135,
+    "quality": 135,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 4358144,
+    "drop": 155648,
+    "scene": 14,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 136,
+    "quality": 136,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 4587520,
+    "drop": 163840,
+    "scene": 14,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 137,
+    "quality": 137,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 4816896,
+    "drop": 172032,
+    "scene": 14,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 138,
+    "quality": 138,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 5046272,
+    "drop": 180224,
+    "scene": 14,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 139,
+    "quality": 139,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 5275648,
+    "drop": 188416,
+    "scene": 14,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 140,
+    "quality": 140,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 34406400,
+    "drop": 1228800,
+    "scene": 14,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 141,
+    "quality": 141,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 7372800,
+    "drop": 245760,
+    "scene": 15,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 142,
+    "quality": 142,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 7864320,
+    "drop": 262144,
+    "scene": 15,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 143,
+    "quality": 143,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 8355840,
+    "drop": 278528,
+    "scene": 15,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 144,
+    "quality": 144,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 8847360,
+    "drop": 294912,
+    "scene": 15,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 145,
+    "quality": 145,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 9338880,
+    "drop": 311296,
+    "scene": 15,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 146,
+    "quality": 146,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 9830400,
+    "drop": 327680,
+    "scene": 15,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 147,
+    "quality": 147,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 10321920,
+    "drop": 344064,
+    "scene": 15,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 148,
+    "quality": 148,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 10813440,
+    "drop": 360448,
+    "scene": 15,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 149,
+    "quality": 149,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 11304960,
+    "drop": 376832,
+    "scene": 15,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 150,
+    "quality": 150,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 73728000,
+    "drop": 2457600,
+    "scene": 15,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 151,
+    "quality": 151,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 15728640,
+    "drop": 491520,
+    "scene": 16,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 152,
+    "quality": 152,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 16777216,
+    "drop": 524288,
+    "scene": 16,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 153,
+    "quality": 153,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 17825792,
+    "drop": 557056,
+    "scene": 16,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 154,
+    "quality": 154,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 18874368,
+    "drop": 589824,
+    "scene": 16,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 155,
+    "quality": 155,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 19922944,
+    "drop": 622592,
+    "scene": 16,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 156,
+    "quality": 156,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 20971520,
+    "drop": 655360,
+    "scene": 16,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 157,
+    "quality": 157,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 22020096,
+    "drop": 688128,
+    "scene": 16,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 158,
+    "quality": 158,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 23068672,
+    "drop": 720896,
+    "scene": 16,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 159,
+    "quality": 159,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 24117248,
+    "drop": 753664,
+    "scene": 16,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 160,
+    "quality": 160,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 157286400,
+    "drop": 4915200,
+    "scene": 16,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 161,
+    "quality": 161,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 33423360,
+    "drop": 983040,
+    "scene": 17,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 162,
+    "quality": 162,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 35651584,
+    "drop": 1048576,
+    "scene": 17,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 163,
+    "quality": 163,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 37879808,
+    "drop": 1114112,
+    "scene": 17,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 164,
+    "quality": 164,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 40108032,
+    "drop": 1179648,
+    "scene": 17,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 165,
+    "quality": 165,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 42336256,
+    "drop": 1245184,
+    "scene": 17,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 166,
+    "quality": 166,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 44564480,
+    "drop": 1310720,
+    "scene": 17,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 167,
+    "quality": 167,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 46792704,
+    "drop": 1376256,
+    "scene": 17,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 168,
+    "quality": 168,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 49020928,
+    "drop": 1441792,
+    "scene": 17,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 169,
+    "quality": 169,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 51249152,
+    "drop": 1507328,
+    "scene": 17,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 170,
+    "quality": 170,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 334233600,
+    "drop": 9830400,
+    "scene": 17,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 171,
+    "quality": 171,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 70778880,
+    "drop": 1966080,
+    "scene": 18,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 172,
+    "quality": 172,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 75497472,
+    "drop": 2097152,
+    "scene": 18,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 173,
+    "quality": 173,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 80216064,
+    "drop": 2228224,
+    "scene": 18,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 174,
+    "quality": 174,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 84934656,
+    "drop": 2359296,
+    "scene": 18,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 175,
+    "quality": 175,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 89653248,
+    "drop": 2490368,
+    "scene": 18,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 176,
+    "quality": 176,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 94371840,
+    "drop": 2621440,
+    "scene": 18,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 177,
+    "quality": 177,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 99090432,
+    "drop": 2752512,
+    "scene": 18,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 178,
+    "quality": 178,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 103809024,
+    "drop": 2883584,
+    "scene": 18,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 179,
+    "quality": 179,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 108527616,
+    "drop": 3014656,
+    "scene": 18,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 180,
+    "quality": 180,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 707788800,
+    "drop": 19660800,
+    "scene": 18,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 181,
+    "quality": 181,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 149422080,
+    "drop": 3932160,
+    "scene": 19,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 182,
+    "quality": 182,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 159383552,
+    "drop": 4194304,
+    "scene": 19,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 183,
+    "quality": 183,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 169345024,
+    "drop": 4456448,
+    "scene": 19,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 184,
+    "quality": 184,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 179306496,
+    "drop": 4718592,
+    "scene": 19,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 185,
+    "quality": 185,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 189267968,
+    "drop": 4980736,
+    "scene": 19,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 186,
+    "quality": 186,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 199229440,
+    "drop": 5242880,
+    "scene": 19,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 187,
+    "quality": 187,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 209190912,
+    "drop": 5505024,
+    "scene": 19,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 188,
+    "quality": 188,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 219152384,
+    "drop": 5767168,
+    "scene": 19,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 189,
+    "quality": 189,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 229113856,
+    "drop": 6029312,
+    "scene": 19,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 190,
+    "quality": 190,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 1494220800,
+    "drop": 39321600,
+    "scene": 19,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 191,
+    "quality": 191,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 314572800,
+    "drop": 7864320,
+    "scene": 20,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 192,
+    "quality": 192,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 335544320,
+    "drop": 8388608,
+    "scene": 20,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 193,
+    "quality": 193,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 356515840,
+    "drop": 8912896,
+    "scene": 20,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 194,
+    "quality": 194,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 377487360,
+    "drop": 9437184,
+    "scene": 20,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 195,
+    "quality": 195,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 398458880,
+    "drop": 9961472,
+    "scene": 20,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 196,
+    "quality": 196,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 419430400,
+    "drop": 10485760,
+    "scene": 20,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 197,
+    "quality": 197,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 440401920,
+    "drop": 11010048,
+    "scene": 20,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 198,
+    "quality": 198,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 461373440,
+    "drop": 11534336,
+    "scene": 20,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 199,
+    "quality": 199,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 482344960,
+    "drop": 12058624,
+    "scene": 20,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 200,
+    "quality": 200,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 3145728000.0,
+    "drop": 78643200,
+    "scene": 20,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 201,
+    "quality": 201,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 660602880,
+    "drop": 15728640,
+    "scene": 21,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 202,
+    "quality": 202,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 704643072,
+    "drop": 16777216,
+    "scene": 21,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 203,
+    "quality": 203,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 748683264,
+    "drop": 17825792,
+    "scene": 21,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 204,
+    "quality": 204,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 792723456,
+    "drop": 18874368,
+    "scene": 21,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 205,
+    "quality": 205,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 836763648,
+    "drop": 19922944,
+    "scene": 21,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 206,
+    "quality": 206,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 880803840,
+    "drop": 20971520,
+    "scene": 21,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 207,
+    "quality": 207,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 924844032,
+    "drop": 22020096,
+    "scene": 21,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 208,
+    "quality": 208,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 968884224,
+    "drop": 23068672,
+    "scene": 21,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 209,
+    "quality": 209,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 1012924416,
+    "drop": 24117248,
+    "scene": 21,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 210,
+    "quality": 210,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 6606028800.0,
+    "drop": 157286400,
+    "scene": 21,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 211,
+    "quality": 211,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 1384120320,
+    "drop": 31457280,
+    "scene": 22,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 212,
+    "quality": 212,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 1476395008,
+    "drop": 33554432,
+    "scene": 22,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 213,
+    "quality": 213,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 1568669696,
+    "drop": 35651584,
+    "scene": 22,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 214,
+    "quality": 214,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 1660944384,
+    "drop": 37748736,
+    "scene": 22,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 215,
+    "quality": 215,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 1753219072,
+    "drop": 39845888,
+    "scene": 22,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 216,
+    "quality": 216,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 1845493760,
+    "drop": 41943040,
+    "scene": 22,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 217,
+    "quality": 217,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 1937768448,
+    "drop": 44040192,
+    "scene": 22,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 218,
+    "quality": 218,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 2030043136,
+    "drop": 46137344,
+    "scene": 22,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 219,
+    "quality": 219,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 2122317824,
+    "drop": 48234496,
+    "scene": 22,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 220,
+    "quality": 220,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 13841203200.0,
+    "drop": 314572800,
+    "scene": 22,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 221,
+    "quality": 221,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 2894069760.0,
+    "drop": 62914560,
+    "scene": 23,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 222,
+    "quality": 222,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 3087007744.0,
+    "drop": 67108864,
+    "scene": 23,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 223,
+    "quality": 223,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 3279945728.0,
+    "drop": 71303168,
+    "scene": 23,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 224,
+    "quality": 224,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 3472883712.0,
+    "drop": 75497472,
+    "scene": 23,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 225,
+    "quality": 225,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 3665821696.0,
+    "drop": 79691776,
+    "scene": 23,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 226,
+    "quality": 226,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 3858759680.0,
+    "drop": 83886080,
+    "scene": 23,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 227,
+    "quality": 227,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 4051697664.0,
+    "drop": 88080384,
+    "scene": 23,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 228,
+    "quality": 228,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 4244635648.0,
+    "drop": 92274688,
+    "scene": 23,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 229,
+    "quality": 229,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 4437573632.0,
+    "drop": 96468992,
+    "scene": 23,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 230,
+    "quality": 230,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 28940697600.0,
+    "drop": 629145600,
+    "scene": 23,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 231,
+    "quality": 231,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 6039797760.0,
+    "drop": 125829120,
+    "scene": 24,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 232,
+    "quality": 232,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 6442450944.0,
+    "drop": 134217728,
+    "scene": 24,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 233,
+    "quality": 233,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 6845104128.0,
+    "drop": 142606336,
+    "scene": 24,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 234,
+    "quality": 234,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 7247757312.0,
+    "drop": 150994944,
+    "scene": 24,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 235,
+    "quality": 235,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 7650410496.0,
+    "drop": 159383552,
+    "scene": 24,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 236,
+    "quality": 236,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 8053063680.0,
+    "drop": 167772160,
+    "scene": 24,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 237,
+    "quality": 237,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 8455716864.0,
+    "drop": 176160768,
+    "scene": 24,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 238,
+    "quality": 238,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 8858370048.0,
+    "drop": 184549376,
+    "scene": 24,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 239,
+    "quality": 239,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 9261023232.0,
+    "drop": 192937984,
+    "scene": 24,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 240,
+    "quality": 240,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 60397977600.0,
+    "drop": 1258291200,
+    "scene": 24,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 241,
+    "quality": 241,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 12582912000.0,
+    "drop": 251658240,
+    "scene": 25,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 242,
+    "quality": 242,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 13421772800.0,
+    "drop": 268435456,
+    "scene": 25,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 243,
+    "quality": 243,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 14260633600.0,
+    "drop": 285212672,
+    "scene": 25,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 244,
+    "quality": 244,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 15099494400.0,
+    "drop": 301989888,
+    "scene": 25,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 245,
+    "quality": 245,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 15938355200.0,
+    "drop": 318767104,
+    "scene": 25,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 246,
+    "quality": 246,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 16777216000.0,
+    "drop": 335544320,
+    "scene": 25,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 247,
+    "quality": 247,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 17616076800.0,
+    "drop": 352321536,
+    "scene": 25,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 248,
+    "quality": 248,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 18454937600.0,
+    "drop": 369098752,
+    "scene": 25,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 249,
+    "quality": 249,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 19293798400.0,
+    "drop": 385875968,
+    "scene": 25,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 250,
+    "quality": 250,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 125829120000.0,
+    "drop": 2516582400.0,
+    "scene": 25,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 251,
+    "quality": 251,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 26172456960.0,
+    "drop": 503316480,
+    "scene": 26,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 252,
+    "quality": 252,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 27917287424.0,
+    "drop": 536870912,
+    "scene": 26,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 253,
+    "quality": 253,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 29662117888.0,
+    "drop": 570425344,
+    "scene": 26,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 254,
+    "quality": 254,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 31406948352.0,
+    "drop": 603979776,
+    "scene": 26,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 255,
+    "quality": 255,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 33151778816.0,
+    "drop": 637534208,
+    "scene": 26,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 256,
+    "quality": 256,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 34896609280.0,
+    "drop": 671088640,
+    "scene": 26,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 257,
+    "quality": 257,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 36641439744.0,
+    "drop": 704643072,
+    "scene": 26,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 258,
+    "quality": 258,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 38386270208.0,
+    "drop": 738197504,
+    "scene": 26,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 259,
+    "quality": 259,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 40131100672.0,
+    "drop": 771751936,
+    "scene": 26,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 260,
+    "quality": 260,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 261724569600.0,
+    "drop": 5033164800.0,
+    "scene": 26,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 261,
+    "quality": 261,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 54358179840.0,
+    "drop": 1006632960,
+    "scene": 27,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 262,
+    "quality": 262,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 57982058496.0,
+    "drop": 1073741824,
+    "scene": 27,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 263,
+    "quality": 263,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 61605937152.0,
+    "drop": 1140850688,
+    "scene": 27,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 264,
+    "quality": 264,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 65229815808.0,
+    "drop": 1207959552,
+    "scene": 27,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 265,
+    "quality": 265,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 68853694464.0,
+    "drop": 1275068416,
+    "scene": 27,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 266,
+    "quality": 266,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 72477573120.0,
+    "drop": 1342177280,
+    "scene": 27,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 267,
+    "quality": 267,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 76101451776.0,
+    "drop": 1409286144,
+    "scene": 27,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 268,
+    "quality": 268,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 79725330432.0,
+    "drop": 1476395008,
+    "scene": 27,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 269,
+    "quality": 269,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 83349209088.0,
+    "drop": 1543503872,
+    "scene": 27,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 270,
+    "quality": 270,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 543581798400.0,
+    "drop": 10066329600.0,
+    "scene": 27,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 271,
+    "quality": 271,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 112742891520.0,
+    "drop": 2013265920,
+    "scene": 28,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 272,
+    "quality": 272,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 120259084288.0,
+    "drop": 2147483648.0,
+    "scene": 28,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 273,
+    "quality": 273,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 127775277056.0,
+    "drop": 2281701376.0,
+    "scene": 28,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 274,
+    "quality": 274,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 135291469824.0,
+    "drop": 2415919104.0,
+    "scene": 28,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 275,
+    "quality": 275,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 142807662592.0,
+    "drop": 2550136832.0,
+    "scene": 28,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 276,
+    "quality": 276,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 150323855360.0,
+    "drop": 2684354560.0,
+    "scene": 28,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 277,
+    "quality": 277,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 157840048128.0,
+    "drop": 2818572288.0,
+    "scene": 28,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 278,
+    "quality": 278,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 165356240896.0,
+    "drop": 2952790016.0,
+    "scene": 28,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 279,
+    "quality": 279,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 172872433664.0,
+    "drop": 3087007744.0,
+    "scene": 28,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 280,
+    "quality": 280,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 1127428915200.0,
+    "drop": 20132659200.0,
+    "scene": 28,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 281,
+    "quality": 281,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 233538846720.0,
+    "drop": 4026531840.0,
+    "scene": 29,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 282,
+    "quality": 282,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 249108103168.0,
+    "drop": 4294967296.0,
+    "scene": 29,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 283,
+    "quality": 283,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 264677359616.0,
+    "drop": 4563402752.0,
+    "scene": 29,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 284,
+    "quality": 284,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 280246616064.0,
+    "drop": 4831838208.0,
+    "scene": 29,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 285,
+    "quality": 285,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 295815872512.0,
+    "drop": 5100273664.0,
+    "scene": 29,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 286,
+    "quality": 286,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 311385128960.0,
+    "drop": 5368709120.0,
+    "scene": 29,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 287,
+    "quality": 287,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 326954385408.0,
+    "drop": 5637144576.0,
+    "scene": 29,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 288,
+    "quality": 288,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 342523641856.0,
+    "drop": 5905580032.0,
+    "scene": 29,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 289,
+    "quality": 289,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 358092898304.0,
+    "drop": 6174015488.0,
+    "scene": 29,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 290,
+    "quality": 290,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 2335388467200.0,
+    "drop": 40265318400.0,
+    "scene": 29,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 291,
+    "quality": 291,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 483183820800.0,
+    "drop": 8053063680.0,
+    "scene": 30,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 292,
+    "quality": 292,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 515396075520.0,
+    "drop": 8589934592.0,
+    "scene": 30,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 293,
+    "quality": 293,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 547608330240.0,
+    "drop": 9126805504.0,
+    "scene": 30,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 294,
+    "quality": 294,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 579820584960.0,
+    "drop": 9663676416.0,
+    "scene": 30,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 295,
+    "quality": 295,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 612032839680.0,
+    "drop": 10200547328.0,
+    "scene": 30,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 296,
+    "quality": 296,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 644245094400.0,
+    "drop": 10737418240.0,
+    "scene": 30,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 297,
+    "quality": 297,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 676457349120.0,
+    "drop": 11274289152.0,
+    "scene": 30,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 298,
+    "quality": 298,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 708669603840.0,
+    "drop": 11811160064.0,
+    "scene": 30,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 299,
+    "quality": 299,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 740881858560.0,
+    "drop": 12348030976.0,
+    "scene": 30,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 300,
+    "quality": 300,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 4831838208000.0,
+    "drop": 80530636800.0,
+    "scene": 30,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 301,
+    "quality": 301,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 998579896320.0,
+    "drop": 16106127360.0,
+    "scene": 31,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 302,
+    "quality": 302,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 1065151889408.0,
+    "drop": 17179869184.0,
+    "scene": 31,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 303,
+    "quality": 303,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 1131723882496.0,
+    "drop": 18253611008.0,
+    "scene": 31,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 304,
+    "quality": 304,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 1198295875584.0,
+    "drop": 19327352832.0,
+    "scene": 31,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 305,
+    "quality": 305,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 1264867868672.0,
+    "drop": 20401094656.0,
+    "scene": 31,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 306,
+    "quality": 306,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 1331439861760.0,
+    "drop": 21474836480.0,
+    "scene": 31,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 307,
+    "quality": 307,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 1398011854848.0,
+    "drop": 22548578304.0,
+    "scene": 31,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 308,
+    "quality": 308,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 1464583847936.0,
+    "drop": 23622320128.0,
+    "scene": 31,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 309,
+    "quality": 309,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 1531155841024.0,
+    "drop": 24696061952.0,
+    "scene": 31,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 310,
+    "quality": 310,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 9985798963200.0,
+    "drop": 161061273600.0,
+    "scene": 31,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 311,
+    "quality": 311,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 2061584302080.0,
+    "drop": 32212254720.0,
+    "scene": 32,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 312,
+    "quality": 312,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 2199023255552.0,
+    "drop": 34359738368.0,
+    "scene": 32,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 313,
+    "quality": 313,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 2336462209024.0,
+    "drop": 36507222016.0,
+    "scene": 32,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 314,
+    "quality": 314,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 2473901162496.0,
+    "drop": 38654705664.0,
+    "scene": 32,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 315,
+    "quality": 315,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 2611340115968.0,
+    "drop": 40802189312.0,
+    "scene": 32,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 316,
+    "quality": 316,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 2748779069440.0,
+    "drop": 42949672960.0,
+    "scene": 32,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 317,
+    "quality": 317,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 2886218022912.0,
+    "drop": 45097156608.0,
+    "scene": 32,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 318,
+    "quality": 318,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 3023656976384.0,
+    "drop": 47244640256.0,
+    "scene": 32,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 319,
+    "quality": 319,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 3161095929856.0,
+    "drop": 49392123904.0,
+    "scene": 32,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 320,
+    "quality": 320,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 20615843020800.0,
+    "drop": 322122547200.0,
+    "scene": 32,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 321,
+    "quality": 321,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 4252017623040.0,
+    "drop": 64424509440.0,
+    "scene": 33,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 322,
+    "quality": 322,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 4535485464576.0,
+    "drop": 68719476736.0,
+    "scene": 33,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 323,
+    "quality": 323,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 4818953306112.0,
+    "drop": 73014444032.0,
+    "scene": 33,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 324,
+    "quality": 324,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 5102421147648.0,
+    "drop": 77309411328.0,
+    "scene": 33,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 325,
+    "quality": 325,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 5385888989184.0,
+    "drop": 81604378624.0,
+    "scene": 33,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 326,
+    "quality": 326,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 5669356830720.0,
+    "drop": 85899345920.0,
+    "scene": 33,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 327,
+    "quality": 327,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 5952824672256.0,
+    "drop": 90194313216.0,
+    "scene": 33,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 328,
+    "quality": 328,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 6236292513792.0,
+    "drop": 94489280512.0,
+    "scene": 33,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 329,
+    "quality": 329,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 6519760355328.0,
+    "drop": 98784247808.0,
+    "scene": 33,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 330,
+    "quality": 330,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 42520176230400.0,
+    "drop": 644245094400.0,
+    "scene": 33,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 331,
+    "quality": 331,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 8761733283840.0,
+    "drop": 128849018880.0,
+    "scene": 34,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 332,
+    "quality": 332,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 9345848836096.0,
+    "drop": 137438953472.0,
+    "scene": 34,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 333,
+    "quality": 333,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 9929964388352.0,
+    "drop": 146028888064.0,
+    "scene": 34,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 334,
+    "quality": 334,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 10514079940608.0,
+    "drop": 154618822656.0,
+    "scene": 34,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 335,
+    "quality": 335,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 11098195492864.0,
+    "drop": 163208757248.0,
+    "scene": 34,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 336,
+    "quality": 336,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 11682311045120.0,
+    "drop": 171798691840.0,
+    "scene": 34,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 337,
+    "quality": 337,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 12266426597376.0,
+    "drop": 180388626432.0,
+    "scene": 34,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 338,
+    "quality": 338,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 12850542149632.0,
+    "drop": 188978561024.0,
+    "scene": 34,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 339,
+    "quality": 339,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 13434657701888.0,
+    "drop": 197568495616.0,
+    "scene": 34,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 340,
+    "quality": 340,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 87617332838400.0,
+    "drop": 1288490188800.0,
+    "scene": 34,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 341,
+    "quality": 341,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 18038862643200.0,
+    "drop": 257698037760.0,
+    "scene": 35,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 342,
+    "quality": 342,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 19241453486080.0,
+    "drop": 274877906944.0,
+    "scene": 35,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 343,
+    "quality": 343,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 20444044328960.0,
+    "drop": 292057776128.0,
+    "scene": 35,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 344,
+    "quality": 344,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 21646635171840.0,
+    "drop": 309237645312.0,
+    "scene": 35,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 345,
+    "quality": 345,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 22849226014720.0,
+    "drop": 326417514496.0,
+    "scene": 35,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 346,
+    "quality": 346,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 24051816857600.0,
+    "drop": 343597383680.0,
+    "scene": 35,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 347,
+    "quality": 347,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 25254407700480.0,
+    "drop": 360777252864.0,
+    "scene": 35,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 348,
+    "quality": 348,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 26456998543360.0,
+    "drop": 377957122048.0,
+    "scene": 35,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 349,
+    "quality": 349,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 27659589386240.0,
+    "drop": 395136991232.0,
+    "scene": 35,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 350,
+    "quality": 350,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 180388626432000.0,
+    "drop": 2576980377600.0,
+    "scene": 35,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 351,
+    "quality": 351,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 37108517437440.0,
+    "drop": 515396075520.0,
+    "scene": 36,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 352,
+    "quality": 352,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 39582418599936.0,
+    "drop": 549755813888.0,
+    "scene": 36,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 353,
+    "quality": 353,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 42056319762432.0,
+    "drop": 584115552256.0,
+    "scene": 36,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 354,
+    "quality": 354,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 44530220924928.0,
+    "drop": 618475290624.0,
+    "scene": 36,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 355,
+    "quality": 355,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 47004122087424.0,
+    "drop": 652835028992.0,
+    "scene": 36,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 356,
+    "quality": 356,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 49478023249920.0,
+    "drop": 687194767360.0,
+    "scene": 36,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 357,
+    "quality": 357,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 51951924412416.0,
+    "drop": 721554505728.0,
+    "scene": 36,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 358,
+    "quality": 358,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 54425825574912.0,
+    "drop": 755914244096.0,
+    "scene": 36,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 359,
+    "quality": 359,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 56899726737408.0,
+    "drop": 790273982464.0,
+    "scene": 36,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 360,
+    "quality": 360,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 371085174374400.0,
+    "drop": 5153960755200.0,
+    "scene": 36,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 361,
+    "quality": 361,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 76278619176960.0,
+    "drop": 1030792151040.0,
+    "scene": 37,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 362,
+    "quality": 362,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 81363860455424.0,
+    "drop": 1099511627776.0,
+    "scene": 37,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 363,
+    "quality": 363,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 86449101733888.0,
+    "drop": 1168231104512.0,
+    "scene": 37,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 364,
+    "quality": 364,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 91534343012352.0,
+    "drop": 1236950581248.0,
+    "scene": 37,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 365,
+    "quality": 365,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 96619584290816.0,
+    "drop": 1305670057984.0,
+    "scene": 37,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 366,
+    "quality": 366,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 101704825569280.0,
+    "drop": 1374389534720.0,
+    "scene": 37,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 367,
+    "quality": 367,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 106790066847744.0,
+    "drop": 1443109011456.0,
+    "scene": 37,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 368,
+    "quality": 368,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 111875308126208.0,
+    "drop": 1511828488192.0,
+    "scene": 37,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 369,
+    "quality": 369,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 116960549404672.0,
+    "drop": 1580547964928.0,
+    "scene": 37,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 370,
+    "quality": 370,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 762786191769600.0,
+    "drop": 10307921510400.0,
+    "scene": 37,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 371,
+    "quality": 371,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 156680406958080.0,
+    "drop": 2061584302080.0,
+    "scene": 38,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 372,
+    "quality": 372,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 167125767421952.0,
+    "drop": 2199023255552.0,
+    "scene": 38,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 373,
+    "quality": 373,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 177571127885824.0,
+    "drop": 2336462209024.0,
+    "scene": 38,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 374,
+    "quality": 374,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 188016488349696.0,
+    "drop": 2473901162496.0,
+    "scene": 38,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 375,
+    "quality": 375,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 198461848813568.0,
+    "drop": 2611340115968.0,
+    "scene": 38,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 376,
+    "quality": 376,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 208907209277440.0,
+    "drop": 2748779069440.0,
+    "scene": 38,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 377,
+    "quality": 377,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 219352569741312.0,
+    "drop": 2886218022912.0,
+    "scene": 38,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 378,
+    "quality": 378,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 229797930205184.0,
+    "drop": 3023656976384.0,
+    "scene": 38,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 379,
+    "quality": 379,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 240243290669056.0,
+    "drop": 3161095929856.0,
+    "scene": 38,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 380,
+    "quality": 380,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 1.5668040695808E+15,
+    "drop": 20615843020800.0,
+    "scene": 38,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 381,
+    "quality": 381,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 321607151124480.0,
+    "drop": 4123168604160.0,
+    "scene": 39,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 382,
+    "quality": 382,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 343047627866112.0,
+    "drop": 4398046511104.0,
+    "scene": 39,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 383,
+    "quality": 383,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 364488104607744.0,
+    "drop": 4672924418048.0,
+    "scene": 39,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 384,
+    "quality": 384,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 385928581349376.0,
+    "drop": 4947802324992.0,
+    "scene": 39,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 385,
+    "quality": 385,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 407369058091008.0,
+    "drop": 5222680231936.0,
+    "scene": 39,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 386,
+    "quality": 386,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 428809534832640.0,
+    "drop": 5497558138880.0,
+    "scene": 39,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 387,
+    "quality": 387,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 450250011574272.0,
+    "drop": 5772436045824.0,
+    "scene": 39,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 388,
+    "quality": 388,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 471690488315904.0,
+    "drop": 6047313952768.0,
+    "scene": 39,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 389,
+    "quality": 389,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 493130965057536.0,
+    "drop": 6322191859712.0,
+    "scene": 39,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 390,
+    "quality": 390,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 3.2160715112448E+15,
+    "drop": 41231686041600.0,
+    "scene": 39,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 391,
+    "quality": 391,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 659706976665600.0,
+    "drop": 8246337208320.0,
+    "scene": 40,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 392,
+    "quality": 392,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 703687441776640.0,
+    "drop": 8796093022208.0,
+    "scene": 40,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 393,
+    "quality": 393,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 747667906887680.0,
+    "drop": 9345848836096.0,
+    "scene": 40,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 394,
+    "quality": 394,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 791648371998720.0,
+    "drop": 9895604649984.0,
+    "scene": 40,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 395,
+    "quality": 395,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 835628837109760.0,
+    "drop": 10445360463872.0,
+    "scene": 40,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 396,
+    "quality": 396,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 879609302220800.0,
+    "drop": 10995116277760.0,
+    "scene": 40,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 397,
+    "quality": 397,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 923589767331840.0,
+    "drop": 11544872091648.0,
+    "scene": 40,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 398,
+    "quality": 398,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 967570232442880.0,
+    "drop": 12094627905536.0,
+    "scene": 40,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 399,
+    "quality": 399,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 1.01155069755392E+15,
+    "drop": 12644383719424.0,
+    "scene": 40,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 400,
+    "quality": 400,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 6.597069766656E+15,
+    "drop": 82463372083200.0,
+    "scene": 40,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 401,
+    "quality": 401,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 1.35239930216448E+15,
+    "drop": 16492674416640.0,
+    "scene": 41,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 402,
+    "quality": 402,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 1.44255925564211E+15,
+    "drop": 17592186044416.0,
+    "scene": 41,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 403,
+    "quality": 403,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 1.53271920911974E+15,
+    "drop": 18691697672192.0,
+    "scene": 41,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 404,
+    "quality": 404,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 1.62287916259738E+15,
+    "drop": 19791209299968.0,
+    "scene": 41,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 405,
+    "quality": 405,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 1.71303911607501E+15,
+    "drop": 20890720927744.0,
+    "scene": 41,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 406,
+    "quality": 406,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 1.80319906955264E+15,
+    "drop": 21990232555520.0,
+    "scene": 41,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 407,
+    "quality": 407,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 1.89335902303027E+15,
+    "drop": 23089744183296.0,
+    "scene": 41,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 408,
+    "quality": 408,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 1.9835189765079E+15,
+    "drop": 24189255811072.0,
+    "scene": 41,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 409,
+    "quality": 409,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 2.07367892998554E+15,
+    "drop": 25288767438848.0,
+    "scene": 41,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 410,
+    "quality": 410,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 1.35239930216448E+16,
+    "drop": 164926744166400.0,
+    "scene": 41,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 411,
+    "quality": 411,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 2.77076930199552E+15,
+    "drop": 32985348833280.0,
+    "scene": 42,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 412,
+    "quality": 412,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 2.95548725546189E+15,
+    "drop": 35184372088832.0,
+    "scene": 42,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 413,
+    "quality": 413,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 3.14020520892826E+15,
+    "drop": 37383395344384.0,
+    "scene": 42,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 414,
+    "quality": 414,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 3.32492316239462E+15,
+    "drop": 39582418599936.0,
+    "scene": 42,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 415,
+    "quality": 415,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 3.50964111586099E+15,
+    "drop": 41781441855488.0,
+    "scene": 42,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 416,
+    "quality": 416,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 3.69435906932736E+15,
+    "drop": 43980465111040.0,
+    "scene": 42,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 417,
+    "quality": 417,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 3.87907702279373E+15,
+    "drop": 46179488366592.0,
+    "scene": 42,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 418,
+    "quality": 418,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 4.0637949762601E+15,
+    "drop": 48378511622144.0,
+    "scene": 42,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 419,
+    "quality": 419,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 4.24851292972646E+15,
+    "drop": 50577534877696.0,
+    "scene": 42,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 420,
+    "quality": 420,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 2.77076930199552E+16,
+    "drop": 329853488332800.0,
+    "scene": 42,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 421,
+    "quality": 421,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 5.67347999932416E+15,
+    "drop": 65970697666560.0,
+    "scene": 43,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 422,
+    "quality": 422,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 6.0517119992791E+15,
+    "drop": 70368744177664.0,
+    "scene": 43,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 423,
+    "quality": 423,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 6.42994399923405E+15,
+    "drop": 74766790688768.0,
+    "scene": 43,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 424,
+    "quality": 424,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 6.80817599918899E+15,
+    "drop": 79164837199872.0,
+    "scene": 43,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 425,
+    "quality": 425,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 7.18640799914394E+15,
+    "drop": 83562883710976.0,
+    "scene": 43,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 426,
+    "quality": 426,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 7.56463999909888E+15,
+    "drop": 87960930222080.0,
+    "scene": 43,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 427,
+    "quality": 427,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 7.94287199905382E+15,
+    "drop": 92358976733184.0,
+    "scene": 43,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 428,
+    "quality": 428,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 8.32110399900877E+15,
+    "drop": 96757023244288.0,
+    "scene": 43,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 429,
+    "quality": 429,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 8.69933599896371E+15,
+    "drop": 101155069755392.0,
+    "scene": 43,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 430,
+    "quality": 430,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 5.67347999932416E+16,
+    "drop": 659706976665600.0,
+    "scene": 43,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 431,
+    "quality": 431,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 1.16108427893146E+16,
+    "drop": 131941395333120.0,
+    "scene": 44,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 432,
+    "quality": 432,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 1.23848989752689E+16,
+    "drop": 140737488355328.0,
+    "scene": 44,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 433,
+    "quality": 433,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 1.31589551612232E+16,
+    "drop": 149533581377536.0,
+    "scene": 44,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 434,
+    "quality": 434,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 1.39330113471775E+16,
+    "drop": 158329674399744.0,
+    "scene": 44,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 435,
+    "quality": 435,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 1.47070675331318E+16,
+    "drop": 167125767421952.0,
+    "scene": 44,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 436,
+    "quality": 436,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 1.54811237190861E+16,
+    "drop": 175921860444160.0,
+    "scene": 44,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 437,
+    "quality": 437,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 1.62551799050404E+16,
+    "drop": 184717953466368.0,
+    "scene": 44,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 438,
+    "quality": 438,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 1.70292360909947E+16,
+    "drop": 193514046488576.0,
+    "scene": 44,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 439,
+    "quality": 439,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 1.7803292276949E+16,
+    "drop": 202310139510784.0,
+    "scene": 44,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 440,
+    "quality": 440,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 1.16108427893146E+17,
+    "drop": 1.3194139533312E+15,
+    "scene": 44,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 441,
+    "quality": 441,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 2.37494511599616E+16,
+    "drop": 263882790666240.0,
+    "scene": 45,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 442,
+    "quality": 442,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 2.5332747903959E+16,
+    "drop": 281474976710656.0,
+    "scene": 45,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 443,
+    "quality": 443,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 2.69160446479565E+16,
+    "drop": 299067162755072.0,
+    "scene": 45,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 444,
+    "quality": 444,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 2.84993413919539E+16,
+    "drop": 316659348799488.0,
+    "scene": 45,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 445,
+    "quality": 445,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 3.00826381359514E+16,
+    "drop": 334251534843904.0,
+    "scene": 45,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 446,
+    "quality": 446,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 3.16659348799488E+16,
+    "drop": 351843720888320.0,
+    "scene": 45,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 447,
+    "quality": 447,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 3.32492316239462E+16,
+    "drop": 369435906932736.0,
+    "scene": 45,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 448,
+    "quality": 448,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 3.48325283679437E+16,
+    "drop": 387028092977152.0,
+    "scene": 45,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 449,
+    "quality": 449,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 3.64158251119411E+16,
+    "drop": 404620279021568.0,
+    "scene": 45,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 450,
+    "quality": 450,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 2.37494511599616E+17,
+    "drop": 2.6388279066624E+15,
+    "scene": 45,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 451,
+    "quality": 451,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 4.85544334825882E+16,
+    "drop": 527765581332480.0,
+    "scene": 46,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 452,
+    "quality": 452,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 5.17913957147607E+16,
+    "drop": 562949953421312.0,
+    "scene": 46,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 453,
+    "quality": 453,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 5.50283579469332E+16,
+    "drop": 598134325510144.0,
+    "scene": 46,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 454,
+    "quality": 454,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 5.82653201791058E+16,
+    "drop": 633318697598976.0,
+    "scene": 46,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 455,
+    "quality": 455,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 6.15022824112783E+16,
+    "drop": 668503069687808.0,
+    "scene": 46,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 456,
+    "quality": 456,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 6.47392446434509E+16,
+    "drop": 703687441776640.0,
+    "scene": 46,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 457,
+    "quality": 457,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 6.79762068756234E+16,
+    "drop": 738871813865472.0,
+    "scene": 46,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 458,
+    "quality": 458,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 7.1213169107796E+16,
+    "drop": 774056185954304.0,
+    "scene": 46,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 459,
+    "quality": 459,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 7.44501313399685E+16,
+    "drop": 809240558043136.0,
+    "scene": 46,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 460,
+    "quality": 460,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 4.85544334825882E+17,
+    "drop": 5.2776558133248E+15,
+    "scene": 46,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 461,
+    "quality": 461,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 9.92199292905062E+16,
+    "drop": 1.05553116266496E+15,
+    "scene": 47,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 462,
+    "quality": 462,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 1.05834591243207E+17,
+    "drop": 1.12589990684262E+15,
+    "scene": 47,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 463,
+    "quality": 463,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 1.12449253195907E+17,
+    "drop": 1.19626865102029E+15,
+    "scene": 47,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 464,
+    "quality": 464,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 1.19063915148607E+17,
+    "drop": 1.26663739519795E+15,
+    "scene": 47,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 465,
+    "quality": 465,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 1.25678577101308E+17,
+    "drop": 1.33700613937562E+15,
+    "scene": 47,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 466,
+    "quality": 466,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 1.32293239054008E+17,
+    "drop": 1.40737488355328E+15,
+    "scene": 47,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 467,
+    "quality": 467,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 1.38907901006709E+17,
+    "drop": 1.47774362773094E+15,
+    "scene": 47,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 468,
+    "quality": 468,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 1.45522562959409E+17,
+    "drop": 1.54811237190861E+15,
+    "scene": 47,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 469,
+    "quality": 469,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 1.5213722491211E+17,
+    "drop": 1.61848111608627E+15,
+    "scene": 47,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 470,
+    "quality": 470,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 9.92199292905062E+17,
+    "drop": 1.05553116266496E+16,
+    "scene": 47,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 471,
+    "quality": 471,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 2.02661983231672E+17,
+    "drop": 2.11106232532992E+15,
+    "scene": 48,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 472,
+    "quality": 472,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 2.16172782113784E+17,
+    "drop": 2.25179981368525E+15,
+    "scene": 48,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 473,
+    "quality": 473,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 2.29683580995895E+17,
+    "drop": 2.39253730204058E+15,
+    "scene": 48,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 474,
+    "quality": 474,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 2.43194379878007E+17,
+    "drop": 2.5332747903959E+15,
+    "scene": 48,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 475,
+    "quality": 475,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 2.56705178760118E+17,
+    "drop": 2.67401227875123E+15,
+    "scene": 48,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 476,
+    "quality": 476,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 2.7021597764223E+17,
+    "drop": 2.81474976710656E+15,
+    "scene": 48,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 477,
+    "quality": 477,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 2.83726776524341E+17,
+    "drop": 2.95548725546189E+15,
+    "scene": 48,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 478,
+    "quality": 478,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 2.97237575406453E+17,
+    "drop": 3.09622474381722E+15,
+    "scene": 48,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 479,
+    "quality": 479,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 3.10748374288564E+17,
+    "drop": 3.23696223217254E+15,
+    "scene": 48,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 480,
+    "quality": 480,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 2.02661983231672E+18,
+    "drop": 2.11106232532992E+16,
+    "scene": 48,
+    "boneAnimation": "Card_caishen"
+  },
+  {
+    "id": 481,
+    "quality": 481,
+    "name": "大乔",
+    "pic": "enemy1",
+    "hp": 4.13768215764664E+17,
+    "drop": 4.22212465065984E+15,
+    "scene": 49,
+    "boneAnimation": "Ball_daqiao"
+  },
+  {
+    "id": 482,
+    "quality": 482,
+    "name": "貂蝉",
+    "pic": "enemy2",
+    "hp": 4.41352763482309E+17,
+    "drop": 4.5035996273705E+15,
+    "scene": 49,
+    "boneAnimation": "Ball_diaochan"
+  },
+  {
+    "id": 483,
+    "quality": 483,
+    "name": "东吴水军步兵",
+    "pic": "enemy3",
+    "hp": 4.68937311199953E+17,
+    "drop": 4.78507460408115E+15,
+    "scene": 49,
+    "boneAnimation": "Ball_dwsjbb"
+  },
+  {
+    "id": 484,
+    "quality": 484,
+    "name": "关索",
+    "pic": "enemy4",
+    "hp": 4.96521858917597E+17,
+    "drop": 5.06654958079181E+15,
+    "scene": 49,
+    "boneAnimation": "Ball_guansuo"
+  },
+  {
+    "id": 485,
+    "quality": 485,
+    "name": "郭嘉",
+    "pic": "enemy5",
+    "hp": 5.24106406635241E+17,
+    "drop": 5.34802455750246E+15,
+    "scene": 49,
+    "boneAnimation": "Ball_guojia"
+  },
+  {
+    "id": 486,
+    "quality": 486,
+    "name": "黄金道士",
+    "pic": "enemy6",
+    "hp": 5.51690954352886E+17,
+    "drop": 5.62949953421312E+15,
+    "scene": 49,
+    "boneAnimation": "Ball_hjds"
+  },
+  {
+    "id": 487,
+    "quality": 487,
+    "name": "黄忠",
+    "pic": "enemy7",
+    "hp": 5.7927550207053E+17,
+    "drop": 5.91097451092378E+15,
+    "scene": 49,
+    "boneAnimation": "Ball_huangzhong"
+  },
+  {
+    "id": 488,
+    "quality": 488,
+    "name": "庞统",
+    "pic": "enemy8",
+    "hp": 6.06860049788174E+17,
+    "drop": 6.19244948763443E+15,
+    "scene": 49,
+    "boneAnimation": "Ball_pangtong"
+  },
+  {
+    "id": 489,
+    "quality": 489,
+    "name": "孙尚香",
+    "pic": "enemy9",
+    "hp": 6.34444597505819E+17,
+    "drop": 6.47392446434509E+15,
+    "scene": 49,
+    "boneAnimation": "Ball_sunshangxiang"
+  },
+  {
+    "id": 490,
+    "quality": 490,
+    "name": "王元姬",
+    "pic": "enemy10",
+    "hp": 4.13768215764664E+18,
+    "drop": 4.22212465065984E+16,
+    "scene": 49,
+    "boneAnimation": "Ball_wangyuanji"
+  },
+  {
+    "id": 491,
+    "quality": 491,
+    "name": "文聘",
+    "pic": "enemy1",
+    "hp": 8.44424930131968E+17,
+    "drop": 8.44424930131968E+15,
+    "scene": 50,
+    "boneAnimation": "Ball_wenpin"
+  },
+  {
+    "id": 492,
+    "quality": 492,
+    "name": "文鸯",
+    "pic": "enemy2",
+    "hp": 9.00719925474099E+17,
+    "drop": 9.00719925474099E+15,
+    "scene": 50,
+    "boneAnimation": "Ball_wenyang"
+  },
+  {
+    "id": 493,
+    "quality": 493,
+    "name": "夏侯惇",
+    "pic": "enemy3",
+    "hp": 9.5701492081623E+17,
+    "drop": 9.5701492081623E+15,
+    "scene": 50,
+    "boneAnimation": "Ball_xiahoudun"
+  },
+  {
+    "id": 494,
+    "quality": 494,
+    "name": "荀攸",
+    "pic": "enemy4",
+    "hp": 1.01330991615836E+18,
+    "drop": 1.01330991615836E+16,
+    "scene": 50,
+    "boneAnimation": "Ball_xunyou"
+  },
+  {
+    "id": 495,
+    "quality": 495,
+    "name": "张角",
+    "pic": "enemy5",
+    "hp": 1.06960491150049E+18,
+    "drop": 1.06960491150049E+16,
+    "scene": 50,
+    "boneAnimation": "Ball_zhangjiao"
+  },
+  {
+    "id": 496,
+    "quality": 496,
+    "name": "赵云",
+    "pic": "enemy6",
+    "hp": 1.12589990684262E+18,
+    "drop": 1.12589990684262E+16,
+    "scene": 50,
+    "boneAnimation": "Ball_zhaoyun"
+  },
+  {
+    "id": 497,
+    "quality": 497,
+    "name": "诸侯步兵",
+    "pic": "enemy7",
+    "hp": 1.18219490218476E+18,
+    "drop": 1.18219490218476E+16,
+    "scene": 50,
+    "boneAnimation": "Ball_zhbb"
+  },
+  {
+    "id": 498,
+    "quality": 498,
+    "name": "甄姬",
+    "pic": "enemy8",
+    "hp": 1.23848989752689E+18,
+    "drop": 1.23848989752689E+16,
+    "scene": 50,
+    "boneAnimation": "Ball_zhenji"
+  },
+  {
+    "id": 499,
+    "quality": 499,
+    "name": "诸葛果",
+    "pic": "enemy9",
+    "hp": 1.29478489286902E+18,
+    "drop": 1.29478489286902E+16,
+    "scene": 50,
+    "boneAnimation": "Ball_zhugeguo"
+  },
+  {
+    "id": 500,
+    "quality": 500,
+    "name": "财神",
+    "pic": "enemy10",
+    "hp": 8.44424930131968E+18,
+    "drop": 8.44424930131968E+16,
+    "scene": 50,
+    "boneAnimation": "Card_caishen"
+  }
+]

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:game="game.*" minWidth="300">
+	<w:HostComponent name="egret.gui.Button"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="up"/>
+		<e:State name="down"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="icon_normal" left="0" top="0" source.down="icon_down" scale9Grid="109,36,15,15" width="608" height="104"/>
+	<e:UIAsset id="skillIcon" source="level_easy" left="24" width="80" height="80" verticalCenter="-0.5"/>
+	<e:Group left="110" height="80" verticalCenter="0">
+		<e:Label id="itemName" text="testPlayer" size="24"/>
+		<e:Group>
+			<e:Label text="Lv." size="24"/>
+			<e:Label id="itemLevel" text="50" size="24" bold="true" textColor="0x13A1F4"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="itemEffectDes" text="点击攻击力X210" size="24"/>
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<game:LvUpButton id="lvUpButton" skinName="skin.components.LvUpButtonSkin" right="10" verticalCenter="0"/>
+</e:Skin>

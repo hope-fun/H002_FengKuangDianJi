@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:game="game.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="mainBg" y="0" source="bg_main_png" />
+	<game:GameScene id="gameScene" height="472"/>
+	<e:Group id="gameGroup">
+		<game:GameSceneUI id="gameSceneUI" skinName="skin.GameSceneSkin" height="168"/>
+		<e:Spacer height="472" />
+		<!--
+		<game:GameScene id="gameScene" height="472"/>
+		-->
+		<e:Group id="herosGroup" width="640">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="bottom" horizontalAlign="center"/>
+			</e:layout>
+		</e:Group>
+		<game:SubSystemUI id="subSystemUI" skinName="skin.SubSystemsSkin" />
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

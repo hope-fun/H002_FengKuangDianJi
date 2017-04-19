@@ -1,0 +1,11 @@
+{"file":"heros.png","frames":{
+"hero1":{"x":1,"y":1,"w":76,"h":76,"offX":0,"offY":0,"sourceW":76,"sourceH":76},
+"hero10":{"x":1,"y":79,"w":76,"h":76,"offX":0,"offY":0,"sourceW":76,"sourceH":76},
+"hero2":{"x":1,"y":157,"w":76,"h":76,"offX":0,"offY":0,"sourceW":76,"sourceH":76},
+"hero3":{"x":79,"y":1,"w":76,"h":76,"offX":0,"offY":0,"sourceW":76,"sourceH":76},
+"hero4":{"x":79,"y":79,"w":76,"h":76,"offX":0,"offY":0,"sourceW":76,"sourceH":76},
+"hero5":{"x":79,"y":157,"w":76,"h":76,"offX":0,"offY":0,"sourceW":76,"sourceH":76},
+"hero6":{"x":157,"y":1,"w":76,"h":76,"offX":0,"offY":0,"sourceW":76,"sourceH":76},
+"hero7":{"x":157,"y":79,"w":76,"h":76,"offX":0,"offY":0,"sourceW":76,"sourceH":76},
+"hero8":{"x":157,"y":157,"w":76,"h":76,"offX":0,"offY":0,"sourceW":76,"sourceH":76},
+"hero9":{"x":235,"y":1,"w":76,"h":76,"offX":0,"offY":0,"sourceW":76,"sourceH":76}}}

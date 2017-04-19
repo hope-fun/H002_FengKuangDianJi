@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?><e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:game="game.*" width="640" height="168">
+	<w:HostComponent name="game.GameSceneUI"/>	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>		<e:State name="challenge"/>		<e:State name="challengeFinal"/>	</e:states>	<e:Group id="contentGroup" horizontalCenter="0">
+				<e:Group height="72">	
+			<e:Spacer width="120"/> 			<e:Group height="72" width="400">				<game:LevelIcon id="preLevel" width="36" height="54" skinName="skin.components.LevelIconSkin" />				<game:LevelIcon id="currentLevel" width="48" height="72" skinName="skin.components.LevelIconSkin" />				<game:LevelIcon id="nextLevel" width="36" height="54" skinName="skin.components.LevelIconSkin" />
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="bottom"/>
+				</e:layout>			</e:Group>
+			<e:Spacer width="120"/> 			<e:layout>				<e:HorizontalLayout horizontalAlign="center"/>			</e:layout>		</e:Group>
+		
+		<e:Group height="48">
+			<e:Spacer width="180"/>					<e:Group height="48" width="280">
+				<e:ProgressBar id="enemyHpPB" skinName="skin.components.ProgressBarSkin" width="280" slideDuration="100"/>
+				<e:Group width="280">
+					<e:Label id="enemyName" text="乌贼王" size="18" height="24" textColor="0xFFFFFF" bold="true" stroke="1.5" strokeColor="0x333333" fontFamily="微软雅黑"/>
+					<e:layout>
+						<e:HorizontalLayout paddingLeft="5"/>
+					</e:layout>
+				</e:Group>	
+				<e:Group width="280">
+					<e:Label id="enemyHp" text="126.25aa HP" size="18" height="24" textColor="0xFFFFFF" bold="true" stroke="1.5" strokeColor="0x333333"/>
+					<e:layout>
+						<e:HorizontalLayout horizontalAlign="right" paddingRight="5"/>
+					</e:layout>
+				</e:Group>			
+				<e:layout>
+					<e:VerticalLayout verticalAlign="bottom" gap="-24"/>
+				</e:layout>			</e:Group>
+			
+			<e:Group height="48" width="180">
+				<e:Group includeIn="challenge">
+					<e:UIAsset source="guaiwu" width="24" height="24"/>
+					<e:Label id="challengeProgress" text="1/10" size="24" bold="true" stroke="1.5" strokeColor="0x333333"/>					
+					<e:layout>
+						<e:HorizontalLayout horizontalAlign="right" gap="0" verticalAlign="middle"/>
+					</e:layout>
+				</e:Group>
+
+				<e:Button id="challengeButton" label="挑战魔王" skinName="skin.components.ChallengeButtonSkin" includeIn="normal" />
+				<e:Button id="stopChallengeButton" label="停止挑战" skinName="skin.components.ChallengeButtonSkin" includeIn="challengeFinal" />
+				
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="bottom"/>
+				</e:layout>
+			</e:Group>	
+						<e:layout>				<e:HorizontalLayout horizontalAlign="center"/>			</e:layout>		</e:Group>
+				<e:Group height="48" >						<e:Group>
+				<e:UIAsset id="totalMoneyIcon" width="48" height="48" source="jinbi_da"/>
+				<e:Label id="totalMoney" text="599.11b" size="32" bold="true" stroke="1.5" strokeColor="0x333333"/>
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="right" verticalAlign="middle" gap="10"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="bottom"/>
+			</e:layout>		</e:Group>		<e:layout>			<e:VerticalLayout horizontalAlign="contentJustify" gap="0"/>		</e:layout>	</e:Group></e:Skin>

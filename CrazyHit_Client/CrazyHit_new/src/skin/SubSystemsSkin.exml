@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?><e:Skin currentState="skills" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:game="game.*" width="640" height="496">	<w:HostComponent name="egret.gui.TitleWindow"/>	<w:Declarations/>
+	<e:states>
+		<e:State name="none"/>		<e:State name="skills"/>		<e:State name="heros"/>		<e:State name="equips"/>		<e:State name="shop"/>	</e:states>
+	<e:Group>
+		<e:Group includeIn="skills,heros,equips,shop">
+			<e:UIAsset id="tabHeadBg" source="kuang_2" height="72" />
+			<e:UIAsset id="closeButton" source="suofang" width="120" height="30"  x="515" y="3"/>
+			<e:Group height="40">
+				<e:UIAsset width="50" height="27" y="5" />				
+				<e:Group height="40" width="640">
+					<e:Group width="300" includeIn="skills" height="40">
+						<e:UIAsset source="gongji" />						<e:Label id="totalDmg" text="1.18ee" horizontalCenter="0.5" bold="true" fontFamily="Arial" textAlign="right" size="24" verticalAlign="middle" textColor="0xFFFFFF"/>						<e:Label text="点击攻击力" horizontalCenter="0.5" textColor="0xFFFFFF" textAlign="left" verticalAlign="middle" size="24" fontFamily="微软雅黑" stroke="1.5" strokeColor="0x333333"/>
+						<e:layout>
+							<e:HorizontalLayout gap="1" verticalAlign="middle"/>
+						</e:layout>					</e:Group>
+					<e:Group width="300" includeIn="heros" height="40">
+						<e:UIAsset source="gongji" />						<e:Label id="totalDps" text="5.80ee" horizontalCenter="0.5" bold="true" textColor="0xFFFFFF" fontFamily="Arial" textAlign="right" size="24"/>						<e:Label text="英雄 DPS" horizontalCenter="0.5" textColor="0xFFFFFF" fontFamily="微软雅黑" size="24" textAlign="left" stroke="1.5" strokeColor="0x333333"/>
+						<e:layout>
+							<e:HorizontalLayout gap="1" verticalAlign="middle"/>
+						</e:layout>					</e:Group>
+					<e:Group width="300" includeIn="equips" height="40">
+						<e:UIAsset source="gongji" />						<e:Label id="totalAtk" text="+120%" horizontalCenter="0.5" bold="true" textColor="0xFFFFFF" fontFamily="Arial" textAlign="right" size="24"/>						<e:Label text="总攻击力" horizontalCenter="0.5" textColor="0xFFFFFF" fontFamily="微软雅黑" size="24" textAlign="left" stroke="1.5" strokeColor="0x333333"/>
+						<e:layout>
+							<e:HorizontalLayout gap="1" verticalAlign="middle"/>
+						</e:layout>					</e:Group>
+					<e:Group width="300" includeIn="shop" height="40">
+					</e:Group>
+					<e:Group width="300" includeIn="skills,heros" height="40">
+						<e:UIAsset source="jinbi_zhong" width="24" height="24"/>
+						<e:Label id="totalMoney" text="599.11b" size="24" bold="true"/>
+						<e:layout>
+							<e:HorizontalLayout horizontalAlign="right" gap="0" verticalAlign="middle"/>
+						</e:layout>
+					</e:Group>
+					<e:Group width="300" includeIn="equips" height="40">
+						<e:UIAsset source="jinbi_zhong" width="24" height="24"/>
+						<e:Label id="totalItem" text="599.11b" size="24" bold="true"/>
+						<e:layout>
+							<e:HorizontalLayout horizontalAlign="right" gap="0" verticalAlign="middle"/>
+						</e:layout>
+					</e:Group>
+					<e:Group width="300" includeIn="shop" height="40">
+						<e:UIAsset source="jinbi_zhong" width="24" height="24"/>
+						<e:Label id="totalDiamond" text="188" size="24" bold="true"/>
+						<e:layout>
+							<e:HorizontalLayout horizontalAlign="right" gap="0" verticalAlign="middle"/>
+						</e:layout>
+					</e:Group>
+					<e:layout>
+						<e:HorizontalLayout gap="0" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout gap="0" horizontalAlign="right"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+				
+		<e:Group id="noneTab" includeIn="none" height="420">
+			<game:SkillAndPropertyUI id="skillAndPropertyUI" skinName="skin.SkillAndPropertySkin" />
+		</e:Group>
+		
+		<e:Group >
+		<!--
+		<e:Spacer height="24" includeIn="skills,heros,equips,shop" />
+		-->
+		<e:UIAsset id="tabBg" source="tabBg" includeIn="skills,heros,equips,shop" />
+		<e:Group >
+			<e:Spacer height="24" includeIn="skills,heros,equips,shop" />
+			<e:Scroller height="330" includeIn="skills">
+				<e:Group id="skillGroup" width="640">
+					<!--
+					<game:ListItem id="playerItem" skinName="skin.PlayerItemSkin"/>
+					
+					<game:ListItem id="skill1" skinName="skin.SkillItemSkin"/>
+					<game:ListItem id="skill2" skinName="skin.SkillItemSkin"/>
+					<game:ListItem id="skill3" skinName="skin.SkillItemSkin"/>
+					-->
+					<e:layout>
+						<e:VerticalLayout gap="8" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+			<e:Scroller height="330" includeIn="heros">
+				<e:Group id="heroGroup" width="640">
+					<!--
+					<game:ListItem id="hero1" skinName="skin.HeroItemSkin" />
+					-->
+					<e:layout>
+						<e:VerticalLayout gap="8" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+			<e:Scroller height="330" includeIn="equips">
+				<e:Group id="equipsGroup" width="640">
+					<e:layout>
+						<e:VerticalLayout gap="8" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+			<e:Scroller height="330" includeIn="shop">
+				<e:Group id="shopGroup" width="640">
+					<e:layout>
+						<e:VerticalLayout gap="8" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>		
+			<e:Group id="subSystemsTab" bottom="0" height="60">
+				<game:TabButton id="skillsBtn" />				<game:TabButton id="herosBtn" />				<game:TabButton id="equipsBtn" />				<game:TabButton id="shopBtn" />
+				<e:layout>
+					<e:HorizontalLayout gap="15" horizontalAlign="center" verticalAlign="bottom"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+	</e:Group></e:Skin>

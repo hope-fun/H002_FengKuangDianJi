@@ -1,0 +1,1 @@
+{"SubTexture":[{"width":43,"y":2,"height":46,"name":"lefthand","x":257},{"y":2,"frameX":-1,"frameY":0,"width":253,"frameWidth":256,"height":256,"name":"body","frameHeight":256,"x":2},{"width":61,"y":260,"height":51,"name":"jianbang","x":228},{"width":224,"y":260,"height":95,"name":"righthand","x":2}],"name":"Ball_wenyang","imagePath":"texture.png"}

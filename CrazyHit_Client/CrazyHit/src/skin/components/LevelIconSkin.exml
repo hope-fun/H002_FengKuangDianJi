@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?><e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">	<w:HostComponent name="game.LevelIcon"/>	<w:Declarations/>	<e:states>		<e:State name="enabled"/>		<e:State name="disabled"/>	</e:states>
+	<e:Label id="level" textAlign="center" bold="true" text="523" size="24" horizontalCenter="0" textColor="0xFFFFFF" stroke="1.5" strokeColor="0x333333"/>	<e:UIAsset id="icon" source="boss_dangqian" source.enabled="boss_dangqian" source.disabled="boss_xiao" y="24"/></e:Skin>

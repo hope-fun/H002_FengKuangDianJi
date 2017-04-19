@@ -1,0 +1,31 @@
+{
+	"document_class": "Main",
+	"native": {
+		"path_ignore": ["libs"	]
+	},
+	"modules": [
+		{
+			"name": "core"
+		},
+		{
+			"name": "version_old"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name": "gui"
+		},
+		{
+			"name": "socket"
+		},
+		{
+			"name": "dragonbones"
+		},
+		{
+			"name": "puremvc",
+			"path": "."
+		}
+	],
+	"egret_version": "2.0.2"
+}

@@ -1,0 +1,1 @@
+{"SubTexture":[{"y":2,"frameX":-1,"frameY":-1,"width":255,"frameWidth":256,"height":253,"name":"body","frameHeight":256,"x":2},{"width":49,"y":257,"height":39,"name":"hand","x":93},{"width":89,"y":257,"height":219,"name":"sword","x":2}],"name":"Ball_wenpin","imagePath":"texture.png"}

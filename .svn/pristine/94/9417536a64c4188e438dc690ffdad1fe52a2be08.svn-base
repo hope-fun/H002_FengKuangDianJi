@@ -1,0 +1,1 @@
+{"imagePath":"texture.png","name":"Ball_wangyuanji","SubTexture":[{"frameWidth":256,"y":2,"frameX":-3,"frameHeight":256,"frameY":0,"width":250,"height":255,"name":"body","x":2},{"width":75,"y":259,"height":53,"name":"sword_xiao","x":74},{"width":70,"y":259,"height":108,"name":"sword","x":2},{"width":66,"y":259,"height":58,"name":"body_shang","x":151}]}

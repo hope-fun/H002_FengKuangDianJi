@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?><e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">	<w:HostComponent name="egret.gui.Button"/>	<w:Declarations/>	<e:states>		<e:State name="up"/>		<e:State name="down"/>		<e:State name="disabled"/>	</e:states>
+	<e:Group>
+		<e:Rect id="selectedRect" height="10" width="150"  fillAlpha="0"/>
+		<e:Group>			<e:UIAsset id="tabBg" left="0" source="tab_1" width="150" height="50" y="0"/>
+			<e:UIAsset id="iconDisplay" source="tabIcon_1" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<!--
+	<e:Label id="tabname" verticalAlign="middle" textAlign="center" fontFamily="微软雅黑" bold="true" textColor="0xFFFFFF" size="26" text="玩家" right="0" top="0" bottom="0" left="0" stroke="1.5" strokeColor="0x333333"/>
+	--></e:Skin>

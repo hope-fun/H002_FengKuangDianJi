@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:game="game.*" minWidth="300">
+	<w:HostComponent name="game.ListItem"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="up"/>
+		<e:State name="down"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="kuang_1" left="0" top="0" source.down="kuang_1" scale9Grid="109,36,15,15" width="608" height="104"/>
+	<e:Rect width="80" height="80" verticalCenter="-0.5" x="12" strokeWeight="4" strokeColor="0x252525" strokeAlpha="1" fillAlpha="0"/>
+	<e:UIAsset id="itemIcon" width="72" height="72" verticalCenter="-0.5" source="touxiang_1" x="16"/>
+	<e:Group height="80" verticalCenter="0" x="105">
+		<e:Label id="itemName" text="testPlayer" size="24" fontFamily="微软雅黑" stroke="1.5" strokeColor="0x333333"/>
+		<e:Group>
+			<e:Label text="Lv." size="24" stroke="1.5" strokeColor="0x333333"/>
+			<e:Label id="itemLevel" text="50" size="24" bold="true" textColor="0x13A1F4" stroke="1.5" strokeColor="0x333333"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group>
+			<e:Label text="DMG:" size="24" stroke="1.5" strokeColor="0x333333"/>
+			<e:Label id="itemEffectDes" text="300.65k" size="24" bold="true" x="60" textColor="0xDF5581" stroke="1.5" strokeColor="0x333333"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout gap="1"/>
+		</e:layout>
+	</e:Group>
+	<game:LvUpButton id="lvUpButton" verticalCenter="0" x="435"/>
+</e:Skin>
